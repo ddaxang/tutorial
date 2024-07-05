@@ -1,0 +1,234 @@
+/* S : 폰트 - Cafe24써라운드 */
+    @font-face {
+        font-family: 'Cafe24Ssurround';
+        src: url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Ssurround/Cafe24Ssurround.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Ssurround/Cafe24Ssurround.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Ssurround/Cafe24Ssurround.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Ssurround/Cafe24Ssurround.ttf') format("truetype");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Cafe24SsurroundAir';
+        src: url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24SsurroundAir/Cafe24SsurroundAir.eot?#iefix') format('embedded-opentype'),
+             url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24SsurroundAir/Cafe24SsurroundAir.woff2') format('woff2'),
+             url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24SsurroundAir/Cafe24SsurroundAir.woff') format('woff'),
+             url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24SsurroundAir/Cafe24SsurroundAir.ttf') format("truetype");
+        font-weight: normal;
+        font-style: normal;
+    }
+/* E : 폰트 - Cafe24써라운드 */
+
+
+/* S : base style */
+    :root {
+        /* S : base color */
+            /* main */
+            --primary: #0EA5E9;
+            --secondary: #0284C7;
+            --p300: #7DD3FC;
+            --p200: #BAE6FD;
+            --p100: #E0F2FE;
+            --p50: #F0F9FF;
+            
+            /* text */
+            --text-main: #111827;
+            --text-sub: #4B5563;
+            --text-des: #9CA3AF;
+            
+            /* border */
+            --border: #D1D5DB;
+            
+            /* gray */
+            --black: #111827;
+            --gray700: #374151;
+            --gray600: #4B5563;
+            --gray50: #F9FAFB;
+            --white: #FFFFFF;
+            
+            /* red */
+            --red: #FF3000;
+        /* E : base color */
+    }
+/* E : base style */
+
+
+/* S : google icon */
+    .material-symbols-rounded {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+/* E : google icon */
+
+
+/* S : wrap */
+    #wrap {
+        max-width: 450px;
+        height: 100vh;
+        margin: 0 auto;
+        overflow-y: hidden;
+        border-left: 1px solid var(--border);
+        border-right: 1px solid var(--border);
+    }
+/* E : wrap */
+
+
+/* S : header */
+    .header {
+        background-color: var(--primary);
+    }
+
+    .header h1 {
+        color: var(--white);
+        font-family: 'Cafe24Ssurround';
+        font-size: 1.31em;
+    }
+    .header h1 a:hover {
+        color: var(--white);
+    }
+
+    .header .menu:hover {
+        color: var(--black);
+    }
+
+    .header .menu span {
+        color: var(--white);
+        font-size: 3em;
+        vertical-align: middle;
+    }
+/* E : header */
+    
+    
+/* S : nav */
+    nav {
+        display: none;
+        height: calc(100vh - 60px);
+        background-color: var(--white);
+    }
+
+    nav.on {display: flex;}
+
+    nav ul li {
+        font-size: 1.13em;
+    }
+
+    nav .info {
+        color: var(--secondary);
+        background-color: var(--p100);
+        font-family: 'Cafe24Ssurround';
+        font-size: 1.13em;
+    }
+
+/* E : nav */
+
+
+/* S : content */
+    .container {
+        --bs-gutter-x: 0;
+    }
+
+    p{
+        margin-bottom: 0;
+    }
+
+    .page {
+        margin-top: 60px;
+        height: calc(100% - 60px);
+    }
+
+    /* S : click point */
+        .click-point,
+        .click-point::before,
+        .click-point::after {
+            position: absolute;
+            width: 1.35rem;
+            height: 1.35rem;
+            background-color: var(--red);
+            border-radius: 50%;
+        }
+        
+        .click-point::before,
+        .click-point::after {
+            content: "";
+            left: 0;
+            top: 0;
+            animation: point 1.8s infinite;
+        }
+
+        .click-point::before {
+            animation: point1 1.8s infinite;
+            animation-delay: 0.2s;
+        }
+        
+        .click-point::after {
+            animation: point2 1.8s infinite;
+            animation-delay: 0.6s;
+        }
+
+        .click-point span {
+            opacity: 0;
+        }
+
+        @keyframes point1 {
+            0% {
+                opacity: 0.5;
+                transform: scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(3);
+            }
+        }
+        @keyframes point2 {
+            0% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(3);
+            }
+        }
+    /* E : click point */
+
+    /* S : pagination */
+        .pagination {
+            justify-content: center;
+            gap: 10px;
+            bottom: 70px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .pagination li {
+            width: 15px;
+            height: 15px;
+            border-radius: 8px;
+        }
+
+        .pagination li.blue {
+            background-color: var(--primary);
+        }
+
+        .pagination li.gray {
+            background-color: var(--black);
+            opacity: 0.5;
+        }
+    /* E : pagination */
+/* E : content */
+
+
+/* S : footer */
+    #footer {
+        background-color: rgba(17, 24, 39, 0.5);
+    }
+
+    #footer p {
+        color: var(--white);
+        font-weight: 600;
+    }
+/* E : footer */

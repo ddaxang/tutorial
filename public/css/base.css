@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+/* S : Reset CSS ----------------------------------------------- */
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        cursor: default;
+        line-height: 1.4;
+    }
+
+    html {
+        scroll-behavior: smooth;
+        font-family: "pretendard", sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+        word-break: keep-all;
+        -ms-word-break: keep-all;
+        font-family: "pretendard", sans-serif;
+        -webkit-text-size-adjust: 100% !important;
+        -moz-text-size-adjust: 100% !important;
+        -ms-text-size-adjust: 100% !important;
+    }
+
+    body,
+    td,
+    input,
+    textarea,
+    select,
+    option {
+        font-family: "pretendard", sans-serif;
+        font-size: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 0;
+        font-family: "pretendard", sans-serif;
+    }
+
+    br {
+        font-family: initial;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        vertical-align: middle;
+    }
+
+    img,
+    fieldset,
+    iframe {
+        border: 0 none;
+    }
+
+    ul,
+    ol {
+        padding-left: 0;
+    }
+
+    ul,
+    ol,
+    li {
+        list-style: none;
+    }
+
+    em,
+    address {
+        font-style: normal;
+    }
+
+    img,
+    input,
+    select,
+    textarea {
+        vertical-align: middle;
+    }
+
+    input {
+        -webkit-border-radius: 0;
+        -webkit-appearance: none;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a:hover,
+    a:active {
+        color: var(--primary);
+        text-decoration: none;
+    }
+
+    button img {
+        left: -3px;
+        *left: auto;
+    }
+
+    option {
+        padding-right: 6px;
+    }
+
+    textarea {
+        overflow: hidden;
+        *margin: -1px 0;
+        padding-right: 1px;
+        resize: none;
+    }
+
+    .blind,
+    legend,
+    caption {
+        position: absolute !important;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+        clip: rect(1px 1px 1px 1px);
+        clip: rect(1px, 1px, 1px, 1px);
+    }
+
+    blockquote,
+    q {
+        quotes: none;
+    }
+
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: "";
+        content: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    legend {
+        *width: 0;
+    }
+
+    :root legend {
+        margin-top: -1px;
+        font-size: 0;
+        line-height: 0;
+    }
+
+    caption {
+        *line-height: 0;
+    }
+
+    sub {
+        font-size: 10px;
+    }
+
+    .clear:after {
+        clear: both;
+        content: "";
+        display: block;
+    }
+
+    pre {
+        width: 100%;
+        text-wrap: wrap;
+        font-family: "pretendard", sans-serif;
+    }
+/* E : Reset CSS ----------------------------------------------- */
+
+
+/* S : hover ----------------------------------------------- */
+    :hover {
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+/* E : hover ----------------------------------------------- */
+
+
+/* S : 반응형 -----------------------------------------------  */
+@media screen and (max-width: 375px) {
+    html, body {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .block{
+        display: block;
+    }
+}
+/* E : 반응형 -----------------------------------------------  */

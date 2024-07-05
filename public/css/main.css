@@ -1,0 +1,181 @@
+/* S : main */
+    .page {
+        background: linear-gradient(var(--white), var(--p200));
+    }
+
+    /* S : title */
+        .page h2,
+        .page h3,
+        .page h4 {
+            font-family: 'Cafe24Ssurround';
+            line-height: 1.4;
+        }
+         
+        .page h2 {
+            padding: 35px 0;
+            left: 40%;
+            transform: translateX(-50%);
+            font-size: 2.25em;
+        }
+
+        .page h2 span {
+            display: inline-block;
+        }
+
+        .page h2 span:first-child {
+            color: var(--white);
+            background-color: var(--primary);
+            transform: rotate(-3deg);
+            box-shadow: 5px 5px 0 var(--p300);
+            word-break: keep-all;
+        }
+
+        .page h2 span:last-child {
+            left: 25%;
+            color: var(--secondary);
+            background-color: var(--p200);
+            transform: rotate(5deg);
+            text-shadow: -3px 0px var(--white), 0px 3px var(--white), 3px 0px var(--white), 0px -3px var(--white);
+        }
+
+        .page h4 {
+            margin: 0 0 35px;
+            color: var(--text-sub);
+        }
+    /* E : title */
+
+
+    /* S : app */
+        .app > li {
+            width: calc((100% / 3) - 15px);
+        }
+
+        .app > li > a > img {
+            width: 100%;
+            margin-bottom: 15px;
+            border-radius: 24px;
+        }
+
+        .app > li > a > p {
+            font-size: 1.31em;
+        }
+    /* E : app */
+/* E : main */
+
+
+/* S : intro */
+    .page h3 {
+        font-size: 2.25em;
+    }
+    .page .img-box img {
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+    }
+
+    .page .ico-img {
+        box-shadow: 0 0 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .intro .text-wrap li:first-child {
+        font-size: 1.13em;
+        line-height: 1.5;
+    }
+    
+    .intro .text-wrap li:last-child {
+        font-size: 1.31em;
+        font-family: 'Cafe24Ssurround';
+    }
+    
+    /* S : btn-wrap */
+        .btn-wrap {
+            text-align: center;
+        }
+
+        .btn-wrap a {
+            margin-bottom: 20px;
+        }
+        
+        .btn-wrap a:last-child {
+            margin-bottom: 0;
+        }
+
+        .main-btn {
+            width: 100%;
+            max-width: 300px;
+            padding: 25px 0 22px;
+            font-size: 1.75em;
+            font-family: 'Cafe24Ssurround';
+            line-height: 100%;
+            border: 5px solid var(--white);
+            border-radius: 50px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+        }
+        
+        .main-btn:hover {
+            box-shadow: 0 0 15px rgba(14, 165, 233, 0.3);
+        }
+
+        .btn.primary {
+            color: var(--white);
+            background-color: var(--primary);
+        }
+
+        .btn.primary:hover {
+            background-color: var(--secondary);
+            border: 5px solid var(--white);
+        }
+
+        .btn.secondary {
+            color: var(--white);
+            background-color: var(--gray600);
+        }
+
+        .btn.secondary:hover {
+            background-color: var(--gray700);
+            border: 5px solid var(--white);
+        }
+
+        .btn.line {
+            color: var(--primary);
+            background-color: var(--white);
+            border: 5px solid var(--primary);
+        }
+
+        .btn.line:hover {
+            background-color: var(--p50);
+        }
+
+        /* S : click-point */
+            .btn-wrap .click-point {
+                top: 47px;
+                left: 68%;
+            }
+        /* E : click-point */
+    /* E : btn-wrap */
+    
+/* E : intro */
+
+/* S : done */
+    .done .text-wrap li {
+        color: var(--text-sub);
+        font-size: 1.31em;
+        font-family: 'Cafe24Ssurround';
+    }
+    .done .btn-wrap a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        line-height: 1;
+    }
+    .done .btn-wrap span {
+        padding-bottom: 5px;
+        font-size: 1.13em;
+        font-weight: 700;
+    }
+    .done .btn-wrap .material-symbols-rounded {
+        font-variation-settings:
+        'wght' 700
+    }
+/* E : done */
