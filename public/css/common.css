@@ -69,7 +69,10 @@
     #wrap {
         max-width: 450px;
         height: 100vh;
+        max-height: 911px;
         margin: 0 auto;
+        top: 50%;
+        transform: translateY(-50%);
         overflow-y: hidden;
         border-left: 1px solid var(--border);
         border-right: 1px solid var(--border);
@@ -175,7 +178,7 @@
 
         @keyframes point1 {
             0% {
-                opacity: 0.5;
+                opacity: 0.6;
                 transform: scale(1);
             }
             100% {
