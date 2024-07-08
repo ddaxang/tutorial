@@ -98,6 +98,11 @@
         color: var(--black);
     }
 
+    .header a > span {
+        color: var(--white);
+        font-size: 2em;
+        vertical-align: middle;
+    }
     .header .menu span {
         color: var(--white);
         font-size: 3em;
