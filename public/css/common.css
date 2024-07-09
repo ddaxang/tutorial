@@ -153,6 +153,7 @@
     .page {
         margin-top: 60px;
         height: calc(100% - 60px);
+        overflow-y: auto;
     }
 
     /* S : click point */

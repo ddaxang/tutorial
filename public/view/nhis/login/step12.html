@@ -70,11 +70,11 @@
         <!-- E : header -->
 
         <!-- S : content- -->
-        <section id="content" class="page position-relative" style="background: #F3F4F9;">
-            <!-- S : 로그인 step01 -->
-            <article class="page-nhis nhis-login01 position-relative">
-                <img src="/public/img/nhis/login01.svg" alt="로그인 선택">
-                <a href="/public/view/nhis/login/step02.html" class="btn-click d-block position-absolute">
+        <section id="content" class="page position-relative" style="background: #FFFFFF;">
+            <!-- S : 로그인 step12 -->
+            <article class="page-nhis nhis-login12 position-relative">
+                <img src="" alt="비밀번호 입력">
+                <a href="#!" class="btn-click d-block position-absolute" onclick="imgChange();">
                     <!-- S : click point -->
                     <div class="click-point">
                         <span>click here</span>
@@ -82,7 +82,7 @@
                     <!-- S : click point -->
                 </a>
             </article>
-            <!-- E : 로그인 step01 -->
+            <!-- E : 로그인 step12 -->
         </section>
         <!-- E : content- -->
 
@@ -92,6 +92,40 @@
         <!-- E : footer -->
     </div>
     <!-- E : wrap -->
+
+    <script>
+        let button = document.querySelector('.btn-click');
+        let imgArr = [
+            '/public/img/nhis/login12.svg', 
+            '/public/img/nhis/login12_02.svg', 
+            '/public/img/nhis/login12_03.svg', 
+            '/public/img/nhis/login12_04.svg', 
+            '/public/img/nhis/login12_05.svg', 
+            '/public/img/nhis/login12_06.svg', 
+            '/public/img/nhis/login12_07.svg'
+        ];
+        let image = document.querySelector('.page-nhis > img');
+        let number = 0;
+        image.src = imgArr[number];
+
+        function imgChange () {
+            if (number >= 5) {
+                button.style.visibility ='hidden';
+
+                ++number;
+                image.src = imgArr[number];
+                console.log(number);
+
+                setTimeout(function() {
+                    location.href = "/public/view/nhis/login/step13.html";
+                }, 1000);
+            } else {
+                ++number;
+                image.src = imgArr[number];
+                console.log(number);
+            };
+        };
+    </script>
 </body>
 
 </html>
