@@ -1,0 +1,142 @@
+/* S : 공통 */
+.page-mnhis > img {
+    width: 100%;
+    object-fit: contain;
+}
+/* E : 공통 */
+
+
+/* S : 로그인 */
+.page-mnhis.mnhis-start01 .btn-click {
+    width: 112px;
+    height: 37px;
+    top: 9px;
+    left: 11px;
+}
+.page-mnhis.mnhis-start01 .btn-click .click-point {
+    top: 4px;
+    right: 4px;
+}
+
+.page-mnhis.mnhis-start02 .btn-click {
+    width: 100%;
+    height: 48px;
+    top: 408px;
+    left: 0;
+}
+.page-mnhis.mnhis-start02 .btn-click .click-point {
+    top: 4px;
+    right: 127px;
+}
+
+.page-mnhis.mnhis-start03 .btn-click {
+    width: 100%;
+    height: 50px;
+    top: 785px;
+    left: 0;
+}
+.page-mnhis.mnhis-start03 .btn-click .click-point {
+    top: 8px;
+    left: 153px;
+}
+
+.page-mnhis.mnhis-start04 .btn-click {
+    width: 90px;
+    height: 90px;
+    top: 381px;
+    right: 134px;
+}
+.page-mnhis.mnhis-start04 .btn-click .click-point {
+    top: 4px;
+    right: 8px;
+}
+
+.page-mnhis.mnhis-start05 .btn-click {
+    width: 100%;
+    height: 48px;
+    top: 230px;
+    left: 0;
+}
+.page-mnhis.mnhis-start05 .btn-click .click-point {
+    top: 4px;
+    left: 80px;
+}
+
+.page-mnhis.mnhis-start06 .btn-click {
+    width: 100%;
+    height: 48px;
+    top: 328px;
+    left: 0;
+}
+.page-mnhis.mnhis-start06 .btn-click .click-point {
+    top: 4px;
+    left: 104px;
+}
+
+.page-mnhis.mnhis-start07 .btn-click {
+    width: 100%;
+    height: 48px;
+    top: 428px;
+    left: 0;
+}
+.page-mnhis.mnhis-start07 .btn-click .click-point {
+    top: 4px;
+    left: 202px;
+}
+
+.page-mnhis.mnhis-start08 .btn-click {
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+}
+.page-mnhis.mnhis-start08 .btn-click .click-point {
+    top: 8px;
+    left: 240px;
+}
+
+.page-mnhis.mnhis-start09 .btn-click {
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+}
+.page-mnhis.mnhis-start09 .btn-click .click-point {
+    top: 8px;
+    right: 124px;
+}
+
+.page-mnhis.mnhis-start10 .btn-click {
+    width: 100%;
+    height: 30px;
+    top: 536px;
+    left: 0;
+}
+.page-mnhis.mnhis-start10 .btn-click .click-point {
+    top: -2px;
+    left: 6px;
+}
+
+.page-mnhis.mnhis-start11 .btn-click {
+    width: 100%;
+    height: 48px;
+    bottom: 144px;
+    left: 0;
+}
+.page-mnhis.mnhis-start11 .btn-click .click-point {
+    top: 4px;
+    left: 257px;
+}
+
+.page-mnhis.mnhis-start12 .btn-click {
+    width: 150px;
+    height: 83px;
+    bottom: 141px;
+    left: 150px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.page-mnhis.mnhis-start12 .btn-click .click-point {
+    top: 14px;
+    right: 44px;
+}
+/* E : 로그인 */
