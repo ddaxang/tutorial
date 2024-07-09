@@ -1,0 +1,47 @@
+<!-- S : header -->
+<div class="header d-flex justify-content-between align-items-center w-100 px-3">
+    <h1>
+        <a href="#" onClick="history.back()">
+            <span class="material-symbols-rounded pe-3">arrow_back</span>이전 화면
+        </a>
+    </h1>
+    <button type="button" class="menu btn">
+        <span class="material-symbols-rounded">menu</span>
+    </button>
+</div>
+<!-- E : header -->
+
+<!-- S : nav -->
+<nav class="test-menu flex-wrap align-content-between w-100 px-4 pt-2 pb-4">
+    <ul class="w-100">
+        <li class="p-3 border-bottom"><a href="/public/view/index.html">홈</a></li>
+        <li class="p-3 border-bottom"><a href="/public/view/mnhis/intro.html">모바일 건강보험증</a></li>
+        <li class="p-3 border-bottom"><a href="/public/view/nhis/intro.html">The건강보험</a></li>
+        <li class="p-3 border-bottom"><a href="/public/view/youtube/intro.html">유튜브(Youtube)</a></li>
+        <li class="p-3 border-bottom"><a href="/public/view/askup/intro.html">아숙업(AskUp)</a></li>
+        <li class="p-3 border-bottom"><a href="/public/view/bank/intro.html">모바일뱅킹</a></li>
+    </ul>
+    <p class="info d-flex px-5 py-4 rounded-1">
+        <span class="material-symbols-rounded pe-2">info</span>
+        실제로 가입이나 실행이 되지 않는 체험 페이지입니다.
+    </p>
+</nav>
+<!-- E : nav -->
+
+<script>
+    $(function () {
+        // menu 클릭 시 nav 표시/숨김 및 아이콘 변경
+        $(".menu").on('click', function () {
+            var nav = $('nav');
+            var menuIcon = $(this).find('.material-symbols-rounded');
+
+            nav.toggleClass('on');
+
+            if (nav.hasClass('on')) {
+                menuIcon.text('close');
+            } else {
+                menuIcon.text('menu');
+            }
+        });
+    });
+</script>
