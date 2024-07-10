@@ -1,63 +1,68 @@
 /* S : 거래내역조회 */
-.page-bank .btn-click {
-    background-color: rgba(0, 0, 0, 0.3);
+.page-bank .btn.click {
+    /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
-.page-bank.bank-check01 .btn-click {
+.page-bank.bank-check01 .btn.click {
     width: 11.2rem;
     height: 3rem;
     top: 40.2%;
     left: 10%;
 }
-.page-bank.bank-check01 .btn-click .click-point {
+.page-bank.bank-check01 .btn.click .click-point {
     top: 30%;
     right: 15%;
 }
 
 
-.page-bank.bank-check02 .btn-click {
+.page-bank.bank-check02 .btn.click {
     width: 6rem;
     height: 3.5rem;
     top: 40.5%;
     right: 5%;
 }
-.page-bank.bank-check02 .btn-click .click-point {
+.page-bank.bank-check02 .btn.click .click-point {
     top: 30%;
     right: 0;
 }
 
 
-.page-bank.bank-check03 .btn-click {
+.page-bank.bank-check03 .btn.click {
     width: 5.3rem;
     height: 2.8rem;
     top: 44.8%;
     left: 5%;
 }
-.page-bank.bank-check03 .btn-click .click-point {
+.page-bank.bank-check03 .btn.click .click-point {
     top: 30%;
     right: 0;
 }
 
 
-.page-bank.bank-check04 .btn-click {
+.page-bank.bank-check04 .btn.click {
     width: 12.5rem;
     height: 2.8rem;
     top: 64.5%;
     left: 50%;
 }
-.page-bank.bank-check04 .btn-click .click-point {
+.page-bank.bank-check04 .btn.click .click-point {
     top: 30%;
     right: 20%;
 }
 
-.page-bank.bank-check05 .btn-click {
+.page-bank.bank-check05 .btn.click {
     width: 25rem;
     height: 3rem;
     top: 86%;
     left: 5%;
 }
-.page-bank.bank-check05 .btn-click .click-point {
+.page-bank.bank-check05 .btn.click .click-point {
     top: 30%;
     left: 60%;
+}
+
+.page-bank.bank-check06 .btn-final .click-point {
+    top: 30%;
+    left: 75%;
 }
 /* E : 거래내역조회 */

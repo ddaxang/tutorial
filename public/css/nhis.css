@@ -199,18 +199,6 @@
         top: 6%;
         right: 7%;
     }
-
-.page-nhis.nhis-check05 .btn-click {
-    width: 14rem;
-    height: 3.5rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.page-nhis.nhis-check05 .btn-click .click-point {
-    top: 9%;
-    right: 21%;
-}
 /* E : 건강검진결과조회 */
 
 
@@ -241,15 +229,37 @@
         right: 14%;
     }
 
-.page-nhis.nhis-predict03 .btn-click {
-    width: 8rem;
-    height: 6.18rem;
-    top: 64.2%;
-    left: 64%;
-    /* background: rgba(0, 0, 0, 0.2); */
-}
-.page-nhis.nhis-predict03 .btn-click .click-point {
-    top: 10%;
-    right: 22%;
-}
-/* E : 건강예측 */
+    .page-nhis.nhis-predict03 .btn.click {
+        width: 8rem;
+        height: 6.18rem;
+        top: 64.2%;
+        left: 64%;
+    }
+    .page-nhis.nhis-predict03 .btn.click .click-point {
+        top: 10%;
+        right: 22%;
+    }
+    
+    .page-nhis.nhis-predict04 .btn.click {
+        width: 5rem;
+        height: 1.5rem;
+        top: 69.1%;
+        left: 56.5%;
+    }
+    .page-nhis.nhis-predict04 .btn.click .click-point {
+        top: -30%;
+        right: 78%;
+    }
+    
+    .page-nhis.nhis-predict05 .btn.click {
+        width: 12.6rem;
+        height: 3rem;
+        top: 87.2%;
+        left: 50.5%;
+    }
+
+    .page-nhis.nhis-predict05 .btn.click .click-point {
+        top: 17%;
+        right: 30%;
+    }
+    /* E : 건강예측 */

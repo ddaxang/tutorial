@@ -161,6 +161,100 @@
         object-fit: contain;
     }
 
+    /* S : pagination */
+        .pagination {
+            justify-content: center;
+            gap: 10px;
+            bottom: 70px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .pagination li {
+            width: 15px;
+            height: 15px;
+            border-radius: 8px;
+        }
+
+        .pagination li.blue {
+            background-color: var(--primary);
+        }
+
+        .pagination li.gray {
+            background-color: var(--black);
+            opacity: 0.5;
+        }
+    /* E : pagination */
+/* E : content */
+
+/* S : btn-wrap */
+    .btn-wrap {
+        text-align: center;
+    }
+
+    .btn-wrap a {
+        margin-bottom: 20px;
+    }
+    
+    .btn-wrap a:last-child {
+        margin-bottom: 0;
+    }
+    /* S : btn-style */
+        .btn:active,
+        .btn:focus,
+        .btn:focus-visible,
+        .btn:focus-within {
+            border: none;
+        }
+
+        .btn.main {
+            width: 100%;
+            max-width: 300px;
+            padding: 25px 0 22px;
+            font-size: 1.75em;
+            font-family: 'Cafe24Ssurround';
+            line-height: 100%;
+            border: 5px solid var(--white);
+            border-radius: 50px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn.main:hover {
+            box-shadow: 0 0 15px rgba(14, 165, 233, 0.3);
+        }
+
+        .btn.primary {
+            color: var(--white);
+            background-color: var(--primary);
+        }
+
+        .btn.primary:hover {
+            background-color: var(--secondary);
+            border: 5px solid var(--white);
+        }
+
+        .btn.secondary {
+            color: var(--white);
+            background-color: var(--gray600);
+        }
+
+        .btn.secondary:hover {
+            background-color: var(--gray700);
+            border: 5px solid var(--white);
+        }
+
+        .btn.line {
+            color: var(--primary);
+            background-color: var(--white);
+            border: 5px solid var(--primary);
+        }
+
+        .btn.line:hover {
+            background-color: var(--p50);
+        }
+    /* E : btn-style */
+
+
     /* S : click point */
         .click-point,
         .click-point::before,
@@ -214,60 +308,38 @@
                 transform: scale(3);
             }
         }
+
+        .btn-wrap .click-point {
+            top: 47px;
+            left: 68%;
+        }
     /* E : click point */
 
     /* S : 체험완료 btn */
-    .btn-final {
-        width: 14rem;
-        height: 3.5rem;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-        .btn-final {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            column-gap: 4px;
-            font-family: 'Cafe24Ssurround';
-            font-weight: 700;
-            font-size: 1.3rem;
-            color: #fff;
-            background: #6D5DFC;
-            box-shadow: inset 0.2rem 0.2rem 1rem #8ABDFF, inset -0.2rem -0.2rem 1rem #5B0EEB, 0.3rem 0.3rem 0.6rem #c5c5c5;
-            border-radius: 50px;
-            transition: 0.3s ease;
-        }
-        .btn-final:hover {
-            background: #5545eb;
-        }
-    /* E : 체험완료 btn */
-
-    /* S : pagination */
-        .pagination {
-            justify-content: center;
-            gap: 10px;
-            bottom: 70px;
+        .btn.final {
+            top: 50%;
             left: 50%;
-            transform: translateX(-50%);
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            animation: final 0.6s forwards 1.5s 1;
         }
 
-        .pagination li {
-            width: 15px;
-            height: 15px;
-            border-radius: 8px;
+        .btn.final .click-point {
+            top: 34%;
+            right: 20%;
         }
 
-        .pagination li.blue {
-            background-color: var(--primary);
+        @keyframes final {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
         }
 
-        .pagination li.gray {
-            background-color: var(--black);
-            opacity: 0.5;
-        }
-    /* E : pagination */
-/* E : content */
+    /* E : 체험완료 btn */
+/* E : btn-wrap */
 
 
 /* S : footer */
