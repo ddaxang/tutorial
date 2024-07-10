@@ -156,6 +156,11 @@
         overflow-y: auto;
     }
 
+    .page > article > img {
+        width: 100%;
+        object-fit: contain;
+    }
+
     /* S : click point */
         .click-point,
         .click-point::before,

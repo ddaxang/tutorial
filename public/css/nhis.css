@@ -1,7 +1,22 @@
 /* S : 공통 */
-.page-nhis > img {
-    width: 100%;
-    object-fit: contain;
+
+
+.page-nhis .btn-click.btn-final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4px;
+    font-family: 'Cafe24Ssurround';
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #fff;
+    background: #6D5DFC;
+    box-shadow: inset 0.2rem 0.2rem 1rem #8ABDFF, inset -0.2rem -0.2rem 1rem #5B0EEB, 0.3rem 0.3rem 0.6rem #c5c5c5;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.page-nhis .btn-click.btn-final:hover {
+    background: #5545eb;
 }
 /* E : 공통 */
 
@@ -155,7 +170,6 @@
     height: 3.75rem;
     bottom: 7%;
     right: 0;
-    /* background: rgba(0, 0, 0, 0.3); */
 }
 .page-nhis.nhis-login14 .btn-click .click-point {
     top: 14%;
@@ -165,4 +179,98 @@
 
 
 /* S : 건강검진결과조회 */
+.page-nhis.nhis-check01 .btn-click {
+    width: 6rem;
+    height: 2.75rem;
+    top: 6.7%;
+    right: 29%;
+}
+.page-nhis.nhis-check01 .btn-click .click-point {
+    top: 1%;
+    right: 10%;
+}
+
+.page-nhis.nhis-check02 .btn-click {
+    width: 11.6rem;
+    height: 4.25rem;
+    top: 64%;
+    left: 8%;
+}
+.page-nhis.nhis-check02 .btn-click .click-point {
+    top: 19%;
+    right: 22%;
+}
+
+.page-nhis.nhis-check03 .btn-click {
+    width: 5.6rem;
+    height: 2.75rem;
+    top: 21%;
+    left: 4.4%;
+}
+.page-nhis.nhis-check03 .btn-click .click-point {
+    top: 10%;
+    right: 34%;
+}
+
+.page-nhis.nhis-check04 .btn-click {
+    width: 5rem;
+    height: 2.75rem;
+    top: 34%;
+    left: 17.5%;
+}
+.page-nhis.nhis-check04 .btn-click .click-point {
+    top: 6%;
+    right: 7%;
+}
+
+.page-nhis.nhis-check05 .btn-click {
+    width: 14rem;
+    height: 3.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.page-nhis.nhis-check05 .btn-click .click-point {
+    top: 9%;
+    right: 21%;
+}
 /* E : 건강검진결과조회 */
+
+
+/* S : 건강예측 */
+.page-nhis.nhis-predict01 .btn-click {
+    width: 6rem;
+    height: 2.75rem;
+    top: 6.7%;
+    right: 28%;
+}
+.page-nhis.nhis-predict01 .btn-click .click-point {
+    top: 1%;
+    right: 10%;
+}
+
+.page-nhis.nhis-predict02 .btn-click {
+    width: 13rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    top: 83%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.page-nhis.nhis-predict02 .btn-click .click-point {
+    top: 8%;
+    right: 14%;
+}
+
+.page-nhis.nhis-predict03 .btn-click {
+    width: 8rem;
+    height: 6.18rem;
+    top: 64.2%;
+    left: 64%;
+    /* background: rgba(0, 0, 0, 0.2); */
+}
+.page-nhis.nhis-predict03 .btn-click .click-point {
+    top: 10%;
+    right: 22%;
+}
+/* E : 건강예측 */

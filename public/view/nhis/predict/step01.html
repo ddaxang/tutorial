@@ -17,7 +17,7 @@
 
     <!-- S : 네이버 필수 메타 태그 -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta h10px;quiv="Content-Script-Type" content="text/javascript">
     <meta http-equiv="Content-Style-Type" content="text/css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta http-equiv="imagetoolbar" content="no">
@@ -53,7 +53,7 @@
     <!-- S : CSS -->
     <link rel="stylesheet" href="/public/css/base.css">
     <link rel="stylesheet" href="/public/css/common.css">
-    <link rel="stylesheet" href="/public/css/#.css">
+    <link rel="stylesheet" href="/public/css/nhis.css">
     <!-- E : CSS -->
 
     <!-- S : jquery -->
@@ -70,23 +70,19 @@
         <!-- E : header -->
 
         <!-- S : content- -->
-        <section id="content" class="page px-4 py-3 position-relative">
-
-            <!-- S :  -->
-            <article class="">
-                <div class="btn-wrap position-relative pt-3">
-                    <a href="/public/view/#.html" class="btn main-btn primary">
-                        Button
-                        <!-- S : click point -->
-                        <div class="click-point">
-                            <span>click here</span>
-                        </div>
-                        <!-- S : click point -->
-                    </a>
-                </div>
+        <section id="content" class="page position-relative" style="background: #F3F4F9;">
+            <!-- S : 건강예측 step01 -->
+            <article class="page-nhis nhis-predict01 position-relative">
+                <img src="/public/img/nhis/predict01.svg" alt="건강iN 선택">
+                <a href="/public/view/nhis/predict/step02.html" class="btn-click d-block position-absolute">
+                    <!-- S : click point -->
+                    <div class="click-point">
+                        <span>click here</span>
+                    </div>
+                    <!-- S : click point -->
+                </a>
             </article>
-            <!-- E :  -->
-
+            <!-- E : 건강예측 step01 -->
         </section>
         <!-- E : content- -->
 
