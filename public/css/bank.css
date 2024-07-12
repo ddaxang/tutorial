@@ -1,7 +1,7 @@
 /* S : 거래내역조회 */
-    .page-bank .btn.click {
+    /* .page-bank .btn.click {
         background-color: rgba(0, 0, 0, 0.3);
-    }
+    } */
 
     .page-bank.bank-check01 .btn.click {
         width: 11.2rem;
@@ -125,9 +125,39 @@
         top: 26%;
         left: 35%;
     }
+
     .page-bank.bank-give09 .btn.click {
         top: 68.6%;
         left: 6%;
     }
 
+    .page-bank.bank-give11 .btn.click {
+        width: 12.5rem;
+        height: 3rem;
+        top: 86.5%;
+        left: 50%;
+    }
+    .page-bank.bank-give11 .btn.click .click-point {
+        top: 30%;
+        right: 20%;
+    }
+
+    .page-bank.bank-give12 .btn.click,
+    .page-bank.bank-give13 .btn.click,
+    .page-bank.bank-give14 .btn.click,
+    .page-bank.bank-give15 .btn.click {
+        top: 66.4%;
+        left: 36%;
+    }
+
+    .page-bank.bank-give16 .btn.click {
+        top: 86%;
+    }
+
+    .page-bank.bank-give17 .btn.click {
+        width: 12.5rem;
+        height: 3rem;
+        top: 86%;
+        left: 50%;
+    }
 /* E : 계좌이체 */
