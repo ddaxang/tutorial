@@ -1,0 +1,292 @@
+/* S : 시작하기 */
+    .mnhis-start01 .btn.click {
+        width: 100%;
+        height: 6.8rem;
+        bottom: 25.7%;
+        left: 0;
+    }
+    .mnhis-start01 .btn.click .click-point {
+        top: 37.8%;
+        right: 40%;
+    }
+
+    .mnhis-start02 .btn.click {
+        width: 15.6rem;
+        height: 3.5rem;
+        bottom: 7%;
+        right: 4%;
+    }
+    .mnhis-start02 .btn.click .click-point {
+        top: 26.8%;
+        right: 32%;
+    }
+
+    .mnhis-start03 .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        bottom: 7%;
+        left: 0;
+    }
+    .mnhis-start03 .btn.click .click-point {
+        top: 26.8%;
+        right: 38%;
+    }
+
+    .mnhis-start04 .btn.click {
+        width: 15.6rem;
+        height: 3.5rem;
+        bottom: 7%;
+        right: 4.2%;
+    }
+    .mnhis-start04 .btn.click .click-point {
+        top: 26.8%;
+        right: 31%;
+    }
+
+    .mnhis-start05 .btn.click {
+        width: 15.6rem;
+        height: 3.5rem;
+        bottom: 7%;
+        right: 4.2%;
+    }
+    .mnhis-start05 .btn.click .click-point {
+        top: 26.8%;
+        right: 31%;
+    }
+
+    .mnhis-start06 .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        bottom: 7%;
+        left: 0;
+    }
+    .mnhis-start06 .btn.click .click-point {
+        top: 26.8%;
+        right: 38%;
+    }
+
+    .mnhis-start07 .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        bottom: 7%;
+        left: 0;
+    }
+    .mnhis-start07 .btn.click .click-point {
+        top: 26.8%;
+        right: 38%;
+    }
+
+    .mnhis-start08 .btn.click {
+        width: 11.25rem;
+        height: 2.5rem;
+        top: 20.7%;
+        left: 3%;
+    }
+    .mnhis-start08 .btn.click .click-point {
+        top: 19.8%;
+        right: 2%;
+    }
+
+    .mnhis-start09 .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        bottom: 7%;
+        left: 0;
+    }
+    .mnhis-start09 .btn.click .click-point {
+        top: 26.8%;
+        right: 38%;
+    }
+
+    .mnhis-start10 .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        bottom: 39.4%;
+        left: 0;
+    }
+    .mnhis-start10 .btn.click .click-point {
+        top: 26.8%;
+        right: 38%;
+    }
+/* E : 시작하기 */
+
+
+/* S : 발급받기 */
+    .mnhis-issue01 .btn.click {
+        width: 100%;
+        height: 5rem;
+        bottom: 7%;
+        left: 0;
+    }
+    .mnhis-issue01 .btn.click .click-point {
+        top: 34.8%;
+        right: 27%;
+    }
+
+    .mnhis-issue02 .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        bottom: 7%;
+        left: 0;
+    }
+    .mnhis-issue02 .btn.click .click-point {
+        top: 26.8%;
+        right: 38%;
+    }
+
+    .mnhis-issue03 .btn.click {
+        width: 100%;
+        height: 5rem;
+        top: 23.3%;
+        left: 0;
+    }
+    .mnhis-issue03 .btn.click .click-point {
+        top: 34.8%;
+        right: 25%;
+    }
+
+    .mnhis-issue04 .btn.click {
+        width: 9.3rem;
+        height: 9.3rem;
+        border-radius: 100%;
+        top: 16.7%;
+        left: 15%;
+    }
+    .mnhis-issue04 .btn.click .click-point {
+        top: 20.8%;
+        right: 41%;
+    }
+
+    .mnhis-issue05 .btn.click {
+        width: 10.4rem;
+        height: 2.5rem;
+        top: 56.3%;
+        left: 2%;
+    }
+    .mnhis-issue05 .btn.click .click-point {
+        top: 20.8%;
+        right: 1%;
+    }
+
+    .mnhis-issue06 .btn.click {
+        width: 100%;
+        height: 3.12rem;
+        bottom: 13.7%;
+        left: 0;
+    }
+    .mnhis-issue06 .btn.click .click-point {
+        top: 25.8%;
+        right: 26%;
+    }
+
+    .mnhis-issue07 .btn.click {
+        width: 100%;
+        height: 2.8rem;
+        top: 12%;
+        left: 0;
+    }
+    .mnhis-issue07 .btn.click .click-point {
+        top: 22.8%;
+        right: 78%;
+    }
+
+    .mnhis-issue08 .btn.click {
+        width: 100%;
+        height: 2.8rem;
+        top: 23%;
+        left: 0;
+    }
+    .mnhis-issue08 .btn.click .click-point {
+        top: 22.8%;
+        right: 75%;
+    }
+
+    .mnhis-issue09 .btn.click {
+        width: 100%;
+        height: 2.8rem;
+        top: 34.3%;
+        left: 0;
+    }
+    .mnhis-issue09 .btn.click .click-point {
+        top: 22.8%;
+        right: 66%;
+    }
+
+    .mnhis-issue10 .btn.click {
+        width: 10.8rem;
+        height: 3.3rem;
+        top: 45.9%;
+        right: 4.5%;
+    }
+    .mnhis-issue10 .btn.click .click-point {
+        top: 30%;
+        right: 43%;
+    }
+
+    .mnhis-issue11 .btn.click {
+        width: 12.5rem;
+        height: 2.8rem;
+        top: 55.8%;
+        right: 4.5%;
+    }
+    .mnhis-issue11 .btn.click .click-point {
+        top: 25%;
+        right: 26%;
+    }
+
+    .mnhis-issue12 .btn.click {
+        width: 100%;
+        height: 2.8rem;
+        top: 12%;
+        left: 0;
+    }
+    .mnhis-issue12 .btn.click .click-point {
+        top: 22.8%;
+        right: 68%;
+    }
+
+    .mnhis-issue13 .btn.click {
+        width: 12.5rem;
+        height: 2.8rem;
+        top: 24.2%;
+        right: 4.5%;
+    }
+    .mnhis-issue13 .btn.click .click-point {
+        top: 25%;
+        right: 20%;
+    }
+
+    .mnhis-issue15 .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        bottom: 7%;
+        left: 0;
+    }
+    .mnhis-issue15 .btn.click .click-point {
+        top: 29%;
+        right: 38%;
+    }
+
+    .mnhis-issue16 .btn.click {
+        width: 8.7rem;
+        height: 5.3rem;
+        bottom: 17%;
+        left: 35%;
+    }
+    .mnhis-issue16 .btn.click .click-point {
+        top: 18%;
+        right: 24%;
+    }
+
+    .mnhis-issue18 .btn.click {
+        width: 15rem;
+        height: 3.5rem;
+        bottom: 7%;
+        right: 4.2%;
+        /* background: rgba(0, 0, 0, 0.2); */
+    }
+    .mnhis-issue18 .btn.click .click-point {
+        top: 27.8%;
+        right: 24%;
+    }
+/* E : 발급받기 */

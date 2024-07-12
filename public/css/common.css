@@ -265,6 +265,12 @@
             background-color: var(--red);
             border-radius: 50%;
         }
+
+        .click-point.dark,
+        .click-point.dark::before,
+        .click-point.dark::after {
+            background-color: #a72407;
+        }
         
         .click-point::before,
         .click-point::after {
