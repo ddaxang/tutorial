@@ -93,7 +93,7 @@ html, body {
         /* margin: 0 auto; */
         /* top: 50%; */
         /* transform: translateY(-50%); */
-        overflow-y: hidden;
+        overflow-y: auto;
         border-left: 1px solid var(--border);
         border-right: 1px solid var(--border);
     }
