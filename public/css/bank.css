@@ -1,7 +1,4 @@
 /* S : 거래내역조회 */
-    /* .page-bank .btn.click {
-        background-color: rgba(0, 0, 0, 0.3);
-    } */
 
     .page-bank.bank-check01 .btn.click {
         width: 11.2rem;
@@ -129,6 +126,27 @@
     .page-bank.bank-give09 .btn.click {
         top: 68.6%;
         left: 6%;
+    }
+    
+    .page-bank.bank-give10 .img1 {
+        top: 0;
+        left: 0;
+    }
+
+    .page-bank.bank-give10 .img2 {
+        opacity: 0;
+        top: 0;
+        left: 0;
+        animation: write 0.5s forwards 0.5s 1;
+    }
+
+    @keyframes write {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 
     .page-bank.bank-give11 .btn.click {
