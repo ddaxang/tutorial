@@ -86,9 +86,9 @@ html, body {
     #wrap {
         width: 100%;
         max-width: 450px;
-        height: 100vh;
-        height: -webkit-fill-available;
-        height: fill-available;
+        height: 100%;
+        /* height: -webkit-fill-available; */
+        /* height: fill-available; */
         max-height: 911px;
         /* margin: 0 auto; */
         /* top: 50%; */
@@ -179,9 +179,9 @@ html, body {
         .pagination {
             justify-content: center;
             gap: 10px;
-            bottom: 70px;
-            left: 50%;
-            transform: translateX(-50%);
+            /* bottom: 70px; */
+            /* left: 50%; */
+            /* transform: translateX(-50%); */
         }
 
         .pagination li {
