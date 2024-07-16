@@ -266,10 +266,14 @@ html, body {
         .click-point::before,
         .click-point::after {
             position: absolute;
-            width: 1.35rem;
-            height: 1.35rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
             background-color: var(--red);
             border-radius: 50%;
+            opacity: 0.8;
         }
 
         .click-point.dark,
