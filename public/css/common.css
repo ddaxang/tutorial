@@ -86,7 +86,6 @@ html, body {
         width: 100%;
         max-width: 450px;
         height: 100%;
-        max-height: 911px;
         overflow-y: auto;
         border-left: 1px solid var(--border);
         border-right: 1px solid var(--border);
@@ -96,6 +95,7 @@ html, body {
 
 /* S : header */
     .header {
+        height: 60px;
         background-color: var(--primary);
     }
 
@@ -215,8 +215,8 @@ html, body {
 
         .btn.main {
             width: 100%;
-            max-width: 300px;
-            padding: 25px 0 22px;
+            max-width: 18rem;
+            padding: 23px 0 20px;
             font-size: 1.75em;
             font-family: 'Cafe24Ssurround';
             line-height: 100%;
@@ -323,11 +323,6 @@ html, body {
                 opacity: 0;
                 transform: scale(3);
             }
-        }
-
-        .btn-wrap .click-point {
-            top: 47px;
-            left: 68%;
         }
     /* E : click point */
 
