@@ -10,53 +10,53 @@
     }
 
     .askup-start02 .btn.click {
-        top: 74.2%;
+        top: 92.5%;
         left: 3.8%;
     }
 
     .askup-start03 .btn.click {
-        top: 74.2%;
+        top: 92.5%;
         left: 14%;
     }
 
     .askup-start04 .btn.click {
-        top: 74.2%;
+        top: 92.5%;
         right: 14.1%;
     }
 
     .askup-start05 .btn.click {
-        top: 68.2%;
+        top: 85.5%;
         right: 29.4%;
     }
 
     .askup-start06 .btn.click {
-        top: 68.2%;
+        top: 85.5%;
         right: 0;
     }
 
     .askup-start07 .btn.click {
-        bottom: 7.9%;
+        top: 111%;
         right: 0;
     }
 
     .askup-start08 .btn.click {
         width: 11rem;
         height: 3rem;
-        top: 49.2%;
+        top: 46%;
         left: 8%;
     }
 
     .askup-start09 .btn.click {
         width: 100%;
         height: 2.8rem;
-        top: 39%;
+        top: 32.5%;
         left: 0;
     }
 
     .askup-start10 .btn.click {
-        width: 7.4rem;
+        width: 7.8rem;
         height: 2.6rem;
-        top: 53.3%;
+        top: 38.8%;
         left: 51%;
     }
 
@@ -124,23 +124,23 @@
         left: 0;
     }
     .askup-chat02 .btn.click {
-        top: 49%;
+        top: 57.5%;
     }
 
     .askup-chat03 .btn.click {
-        width: 3.4rem;
+        width: 3rem;
         height: 2.5rem;
-        top: 12.3%;
+        top: 11.5%;
         left: 70%;
     }
 
     .askup-chat04 .btn.click {
-        top: 74.2%;
+        top: 93%;
         left: 24%;
     }
 
     .askup-chat05 .btn.click {
-        top: 51.5%;
+        top: 66%;
         right: 0;
     }
 /* E : 질문하기 */

@@ -18,7 +18,7 @@
     .page-bank.bank-check03 .btn.click {
         width: 5.3rem;
         height: 2.8rem;
-        top: 44.8%;
+        top: 44%;
         left: 5%;
     }
 
@@ -26,12 +26,12 @@
     .page-bank.bank-check04 .btn.click {
         width: 12.5rem;
         height: 2.8rem;
-        top: 64.5%;
+        top: 67%;
         left: 50%;
     }
 
     .page-bank.bank-check05 .btn.click {
-        top: 86%;
+        top: 92%;
     }
 
 /* E : 거래내역조회 */
@@ -52,17 +52,17 @@
 
     .page-bank.bank-give02 .btn.click {
         top: 60%;
-        right: 4.5%;
+        right: 5.5%;
     }
 
     .page-bank.bank-give03 .btn.click,
     .page-bank.bank-give04 .btn.click {
-        top: 77.2%;
-        left: 4.5%;
+        top: 80.5%;
+        left: 5.5%;
     }
 
     .page-bank.bank-give05 .btn.click {
-        top: 77.2%;
+        top: 80.5%;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -70,27 +70,27 @@
     .page-bank .btn.full {
         width: 100%;
         height: 3rem;
-        top: 86.5%;
+        top: 91.5%;
         left: 0;
     }
 
     .page-bank.bank-give07 .btn.click {
-        top: 17.3%;
+        top: 21.5%;
     }
     .page-bank.bank-give07 .btn.click .click-point {
         left: 92%;
     }
 
     .page-bank.bank-give08 .btn.click {
-        top: 24.2%;
+        top: 24.4%;
     }
     .page-bank.bank-give08 .btn.click .click-point {
         left: 15%;
     }
 
     .page-bank.bank-give09 .btn.click {
-        top: 68.6%;
-        left: 4.5%;
+        top: 70%;
+        left: 5.5%;
     }
     
     .page-bank.bank-give10 .img1 {
@@ -117,7 +117,7 @@
     .page-bank.bank-give11 .btn.click {
         width: 12.5rem;
         height: 3rem;
-        top: 86.2%;
+        top: 91.5%;
         left: 50%;
     }
 
@@ -125,19 +125,19 @@
     .page-bank.bank-give13 .btn.click,
     .page-bank.bank-give14 .btn.click,
     .page-bank.bank-give15 .btn.click {
-        top: 66.2%;
+        top: 68.5%;
         left: 50%;
         transform: translateX(-50%);
     }
 
     .page-bank.bank-give16 .btn.click {
-        top: 86%;
+        top: 91.5%;
     }
 
     .page-bank.bank-give17 .btn.click {
         width: 12.5rem;
         height: 3rem;
-        top: 86%;
+        top: 91.5%;
         left: 50%;
     }
 /* E : 계좌이체 */

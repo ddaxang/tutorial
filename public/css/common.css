@@ -205,6 +205,9 @@ html, body {
         margin-bottom: 0;
     }
     /* S : btn-style */
+        .btn {
+            z-index: 1;
+        }
         .btn:active,
         .btn:focus,
         .btn:focus-visible,
@@ -342,9 +345,16 @@ html, body {
                 opacity: 1;
             }
         }
-
     /* E : 체험완료 btn */
 /* E : btn-wrap */
+
+
+/* S : keyboard */
+    .keyboard {
+        width: 100%;
+        left: 0;
+    }
+/* E : keyboard */
 
 
 /* S : footer */

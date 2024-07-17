@@ -19,7 +19,7 @@
     .nhis-login03 .btn.click {
         width: 100%;
         height: 3rem;
-        bottom: 6.7%;
+        top: 92%;
         left: 0;
     }
     .nhis-login03 .btn.click .click-point {
@@ -39,7 +39,7 @@
     .nhis-login05 .btn.click {
         width: 100%;
         height: 3rem;
-        top: 26.8%;
+        top: 31.2%;
         left: 0;
     }
     .nhis-login05 .btn.click .click-point {
@@ -49,7 +49,7 @@
     .nhis-login06 .btn.click {
         width: 100%;
         height: 3rem;
-        top: 38.6%;
+        top: 45%;
         left: 0;
     }
     .nhis-login06 .btn.click .click-point {
@@ -59,7 +59,7 @@
     .nhis-login07 .btn.click {
         width: 100%;
         height: 3rem;
-        top: 50.3%;
+        top: 58.5%;
         left: 0;
     }
     .nhis-login07 .btn.click .click-point {
@@ -69,21 +69,21 @@
     .nhis-login08 .btn.click {
         width: 100%;
         height: 3.5rem;
-        bottom: 7%;
+        top: 92%;
         left: 0;
     }
 
     .nhis-login09 .btn.click {
         width: 100%;
         height: 3.5rem;
-        bottom: 7%;
+        top: 92%;
         left: 0;
     }
 
     .nhis-login10 .btn.click {
         width: 100%;
         height: 1.8rem;
-        bottom: 33.1%;
+        top: 63%;
         left: 0;
     }
     .nhis-login10 .btn.click .click-point {
@@ -93,28 +93,28 @@
     .nhis-login11 .btn.click {
         width: 100%;
         height: 2.8rem;
-        bottom: 17%;
+        top: 77.5%;
         left: 0;
     }
 
     .nhis-login12 .btn.click {
         width: 8rem;
         height: 5.2rem;
-        bottom: 16%;
+        top: 79.5%;
         left: 34.5%;
     }
 
     .nhis-login13 .btn.click {
         width: 100%;
         height: 2.8rem;
-        bottom: 28.8%;
+        top: 89%;
         left: 0;
     }
 
     .nhis-login14 .btn.click {
         width: 18.3rem;
         height: 3.5rem;
-        bottom: 7%;
+        top: 92%;
         right: 0;
     }
 /* E : 로그인 */
@@ -190,7 +190,7 @@
     .nhis-predict05 .btn.click {
         width: 12rem;
         height: 3rem;
-        top: 87.2%;
+        top: 92%;
         left: 50.5%;
     }
     /* E : 건강예측 */
