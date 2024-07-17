@@ -6,18 +6,18 @@
     right: 0.5%;
 }
 
-.youtube-subscribe02 + div .btn.click {
+.youtube-subscribe02 + .keyboard-wrap .btn.click {
     width: 3rem;
     height: 3rem;
-    bottom: 15.2%;
+    bottom: 31.5%;
     left: 4.3%;
 }
 
-.youtube-subscribe03 + div .btn.click {
+.youtube-subscribe03 + .keyboard-wrap .btn.click {
     width: 3rem;
     height: 2.5rem;
-    bottom: 4%;
-    right: 1%;
+    bottom: 8%;
+    right: 0.5%;
 }
 
 .youtube-subscribe04 .btn.click {

@@ -350,8 +350,10 @@ html, body {
 
 
 /* S : keyboard */
+    .keyboard-wrap {
+        height: 321px;
+    }
     .keyboard {
-        width: 100%;
         left: 0;
     }
 /* E : keyboard */

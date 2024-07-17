@@ -9,33 +9,34 @@
         right: 31.5%;
     }
 
-    .askup-start02 + div .btn.click {
-        bottom: 17.1%;
-        left: 6.6%;
+    .page {content: ''; display: block; clear: both;}
+    .askup-start02 + .keyboard-wrap .btn.click {
+        bottom: 36%;
+        left: 6.3%;
     }
 
-    .askup-start03 + div .btn.click {
-        bottom: 17.1%;
+    .askup-start03 + .keyboard-wrap .btn.click {
+        bottom: 36%;
         left: 16.6%;
     }
 
-    .askup-start04 + div .btn.click {
-        bottom: 17.1%;
+    .askup-start04 + .keyboard-wrap .btn.click {
+        bottom: 36%;
         right: 16.6%;
     }
 
-    .askup-start05 + div .btn.click {
-        bottom: 23%;
-        right: 32.4%;
+    .askup-start05 + .keyboard-wrap .btn.click {
+        bottom: 48.5%;
+        right: 32.1%;
     }
 
-    .askup-start06 + div .btn.click {
-        bottom: 23%;
+    .askup-start06 + .keyboard-wrap .btn.click {
+        bottom: 48.5%;
         right: 3%;
     }
 
-    .askup-start07 + div .btn.click {
-        bottom: 5.5%;
+    .askup-start07 + .keyboard-wrap .btn.click {
+        bottom: 11%;
         right: 3.5%;
     }
 
