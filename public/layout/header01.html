@@ -21,17 +21,14 @@
         <li class="p-3 border-bottom"><a href="/tutorial/public/view/askup/intro.html">아숙업(AskUp)</a></li>
         <li class="p-3 border-bottom"><a href="/tutorial/public/view/bank/intro.html">모바일뱅킹</a></li>
     </ul>
-    <p class="info d-flex px-5 py-4 rounded-1">
-        <span class="material-symbols-rounded pe-2">info</span>
-        실제로 가입이나 실행이 되지 않는 체험 페이지입니다.
-    </p>
 </nav>
 <!-- E : nav -->
 
 <script>
     $(function () {
         // menu 클릭 시 nav 표시/숨김 및 아이콘 변경
-        $(".menu").on('click', function () {
+        $("button.menu").on('click', function () {
+            console.log('header01 menu');
             var nav = $('nav');
             var menuIcon = $(this).find('.material-symbols-rounded');
 
