@@ -82,6 +82,7 @@
     ol,
     li {
         list-style: none;
+        margin-bottom: 0;
     }
 
     em,

@@ -1,220 +1,165 @@
 /* S : 로그인 */
-    .page-nhis.nhis-login01 .btn.click {
+    .nhis-login01 .btn.click {
         width: 7rem;
         height: 2.3rem;
-        top: 1.2%;
+        top: 1%;
         left: 2%;
     }
-    .page-nhis.nhis-login01 .btn.click .click-point {
-        top: 0.8%;
-        right: 0.8%;
+    .nhis-login01 .btn.click .click-point {
+        left: 83%;
     }
 
-    .page-nhis.nhis-login02 .btn.click {
+    .nhis-login02 .btn.click {
         width: 100%;
-        height: 3rem;
+        height: 2.8rem;
         top: 48%;
         left: 0;
     }
-    .page-nhis.nhis-login02 .btn.click .click-point {
-        top: 0.8%;
-        right: 28%;
+
+    .nhis-login03 .btn.click {
+        width: 100%;
+        height: 3rem;
+        bottom: 6.7%;
+        left: 0;
+    }
+    .nhis-login03 .btn.click .click-point {
+        left: 25%;
     }
 
-    .page-nhis.nhis-login03 .btn.click {
+    .nhis-login04 .btn.click {
+        width: 5rem;
+        height: 5rem;
+        top: 44.8%;
+        right: 30.1%;
+    }
+    .nhis-login04 .btn.click .click-point {
+        top: 40%;
+    }
+
+    .nhis-login05 .btn.click {
         width: 100%;
-        height: 3.1rem;
+        height: 3rem;
+        top: 26.8%;
+        left: 0;
+    }
+    .nhis-login05 .btn.click .click-point {
+        left: 7%;
+    }
+
+    .nhis-login06 .btn.click {
+        width: 100%;
+        height: 3rem;
+        top: 38.6%;
+        left: 0;
+    }
+    .nhis-login06 .btn.click .click-point {
+        left: 7%;
+    }
+
+    .nhis-login07 .btn.click {
+        width: 100%;
+        height: 3rem;
+        top: 50.3%;
+        left: 0;
+    }
+    .nhis-login07 .btn.click .click-point {
+        left: 30%;
+    }
+
+    .nhis-login08 .btn.click {
+        width: 100%;
+        height: 3.5rem;
         bottom: 7%;
         left: 0;
     }
-    .page-nhis.nhis-login03 .btn.click .click-point {
-        top: 10%;
-        left: 34%;
-    }
 
-    .page-nhis.nhis-login04 .btn.click {
-        width: 5.6rem;
-        height: 5.6rem;
-        top: 44.5%;
-        right: 29.7%;
-    }
-    .page-nhis.nhis-login04 .btn.click .click-point {
-        top: 4%;
-        right: 10%;
-    }
-
-    .page-nhis.nhis-login05 .btn.click {
+    .nhis-login09 .btn.click {
         width: 100%;
-        height: 3rem;
-        top: 27%;
-        left: 0;
-    }
-    .page-nhis.nhis-login05 .btn.click .click-point {
-        top: 6%;
-        left: 16%;
-    }
-
-    .page-nhis.nhis-login06 .btn.click {
-        width: 100%;
-        height: 3rem;
-        top: 38.8%;
-        left: 0;
-    }
-    .page-nhis.nhis-login06 .btn.click .click-point {
-        top: 6%;
-        left: 23%;
-    }
-
-    .page-nhis.nhis-login07 .btn.click {
-        width: 100%;
-        height: 3rem;
-        top: 50.5%;
-        left: 0;
-    }
-    .page-nhis.nhis-login07 .btn.click .click-point {
-        top: 6%;
-        left: 45%;
-    }
-
-    .page-nhis.nhis-login08 .btn.click {
-        width: 100%;
-        height: 3.75rem;
+        height: 3.5rem;
         bottom: 7%;
         left: 0;
     }
-    .page-nhis.nhis-login08 .btn.click .click-point {
-        top: 10%;
-        left: 54%;
-    }
 
-    .page-nhis.nhis-login09 .btn.click {
-        width: 100%;
-        height: 3.75rem;
-        bottom: 7%;
-        left: 0;
-    }
-    .page-nhis.nhis-login09 .btn.click .click-point {
-        top: 14%;
-        left: 67%;
-    }
-
-    .page-nhis.nhis-login10 .btn.click {
+    .nhis-login10 .btn.click {
         width: 100%;
         height: 1.8rem;
-        bottom: 33.2%;
+        bottom: 33.1%;
         left: 0;
     }
-    .page-nhis.nhis-login10 .btn.click .click-point {
-        top: -10%;
-        left: 1.3%;
+    .nhis-login10 .btn.click .click-point {
+        left: 5%;
     }
 
-    .page-nhis.nhis-login11 .btn.click {
+    .nhis-login11 .btn.click {
         width: 100%;
-        height: 3rem;
+        height: 2.8rem;
         bottom: 17%;
         left: 0;
     }
-    .page-nhis.nhis-login11 .btn.click .click-point {
-        top: 10%;
-        left: 57%;
-    }
 
-    .page-nhis.nhis-login12 .btn.click {
-        width: 9.3rem;
-        height: 5.1rem;
+    .nhis-login12 .btn.click {
+        width: 8rem;
+        height: 5.2rem;
         bottom: 16%;
-        left: 34%;
-    }
-    .page-nhis.nhis-login12 .btn.click .click-point {
-        top: 14%;
-        right: 29%;
+        left: 34.5%;
     }
 
-    .page-nhis.nhis-login13 .btn.click {
+    .nhis-login13 .btn.click {
         width: 100%;
-        height: 3rem;
-        bottom: 29%;
+        height: 2.8rem;
+        bottom: 28.8%;
         left: 0;
     }
-    .page-nhis.nhis-login13 .btn.click .click-point {
-        top: 14%;
-        right: 41%;
-    }
 
-    .page-nhis.nhis-login14 .btn.click {
-        width: 20rem;
-        height: 3.75rem;
+    .nhis-login14 .btn.click {
+        width: 18.3rem;
+        height: 3.5rem;
         bottom: 7%;
         right: 0;
-    }
-    .page-nhis.nhis-login14 .btn.click .click-point {
-        top: 14%;
-        right: 32%;
     }
 /* E : 로그인 */
 
 
 /* S : 건강검진결과조회 */
-    .page-nhis.nhis-check01 .btn.click {
+    .nhis-check01 .btn.click {
         width: 6rem;
-        height: 2.75rem;
-        top: 6.7%;
-        right: 29%;
-    }
-    .page-nhis.nhis-check01 .btn.click .click-point {
-        top: 1%;
-        right: 10%;
+        height: 2.7rem;
+        top: 6.5%;
+        right: 27.5%;
     }
 
-    .page-nhis.nhis-check02 .btn.click {
-        width: 11.6rem;
+    .nhis-check02 .btn.click {
+        width: 11.2rem;
         height: 4.25rem;
         top: 64%;
-        left: 8%;
-    }
-    .page-nhis.nhis-check02 .btn.click .click-point {
-        top: 19%;
-        right: 22%;
+        left: 7.5%;
     }
 
-    .page-nhis.nhis-check03 .btn.click {
+    .nhis-check03 .btn.click {
         width: 5.6rem;
         height: 2.75rem;
         top: 21%;
         left: 4.4%;
     }
-    .page-nhis.nhis-check03 .btn.click .click-point {
-        top: 10%;
-        right: 34%;
-    }
 
-    .page-nhis.nhis-check04 .btn.click {
+    .nhis-check04 .btn.click {
         width: 5rem;
         height: 2.75rem;
         top: 34%;
         left: 17.5%;
     }
-    .page-nhis.nhis-check04 .btn.click .click-point {
-        top: 6%;
-        right: 7%;
-    }
 /* E : 건강검진결과조회 */
 
 
 /* S : 건강예측 */
-    .page-nhis.nhis-predict01 .btn.click {
+    .nhis-predict01 .btn.click {
         width: 6rem;
         height: 2.75rem;
         top: 6.7%;
         right: 28%;
     }
-    .page-nhis.nhis-predict01 .btn.click .click-point {
-        top: 1%;
-        right: 10%;
-    }
 
-    .page-nhis.nhis-predict02 .btn.click {
+    .nhis-predict02 .btn.click {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -224,42 +169,28 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    .page-nhis.nhis-predict02 .btn.click .click-point {
-        top: 8%;
-        right: 14%;
-    }
 
-    .page-nhis.nhis-predict03 .btn.click {
+    .nhis-predict03 .btn.click {
         width: 8rem;
         height: 6.18rem;
-        top: 64.2%;
+        top: 63%;
         left: 64%;
     }
-    .page-nhis.nhis-predict03 .btn.click .click-point {
-        top: 10%;
-        right: 22%;
-    }
     
-    .page-nhis.nhis-predict04 .btn.click {
+    .nhis-predict04 .btn.click {
         width: 5rem;
         height: 1.5rem;
         top: 69.1%;
         left: 56.5%;
     }
-    .page-nhis.nhis-predict04 .btn.click .click-point {
-        top: -30%;
-        right: 78%;
+    .nhis-predict04 .btn.click .click-point {
+        left: 11%;
     }
     
-    .page-nhis.nhis-predict05 .btn.click {
-        width: 12.6rem;
+    .nhis-predict05 .btn.click {
+        width: 12rem;
         height: 3rem;
         top: 87.2%;
         left: 50.5%;
-    }
-
-    .page-nhis.nhis-predict05 .btn.click .click-point {
-        top: 17%;
-        right: 30%;
     }
     /* E : 건강예측 */

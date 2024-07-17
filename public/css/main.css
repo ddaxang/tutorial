@@ -94,6 +94,9 @@
 /* E : intro */
 
 /* S : done */
+    .done .img-wrap img {
+        width: 12rem;
+    }
     .done .text-wrap li {
         color: var(--text-sub);
         font-size: 1.31em;

@@ -3,80 +3,65 @@
         width: 3rem;
         height: 3rem;
     }
-    .page-askup .btn.click.key .click-point {
-        top: 26%;
-        left: 26%;
+
+    .askup-start01 .btn.click {
+        top: 1%;
+        right: 31.5%;
     }
 
-    .page-askup.askup-start01 .btn.click {
-        top: 1.2%;
-        right: 32%;
+    .askup-start02 .btn.click {
+        top: 74.2%;
+        left: 3.8%;
     }
 
-    .page-askup.askup-start02 .btn.click {
-        top: 74.5%;
-        left: 4.3%;
+    .askup-start03 .btn.click {
+        top: 74.2%;
+        left: 14%;
     }
 
-    .page-askup.askup-start03 .btn.click {
-        top: 74.5%;
-        left: 14.3%;
+    .askup-start04 .btn.click {
+        top: 74.2%;
+        right: 14.1%;
     }
 
-    .page-askup.askup-start04 .btn.click {
-        top: 74.5%;
-        right: 14.3%;
+    .askup-start05 .btn.click {
+        top: 68.2%;
+        right: 29.4%;
     }
 
-    .page-askup.askup-start05 .btn.click {
-        top: 68.5%;
-        right: 29.6%;
+    .askup-start06 .btn.click {
+        top: 68.2%;
+        right: 0;
     }
 
-    .page-askup.askup-start06 .btn.click {
-        top: 68.5%;
-        right: 0.2%;
+    .askup-start07 .btn.click {
+        bottom: 7.9%;
+        right: 0;
     }
 
-    .page-askup.askup-start07 .btn.click {
-        bottom: 8.1%;
-        right: 1%;
-    }
-
-    .page-askup.askup-start08 .btn.click {
+    .askup-start08 .btn.click {
         width: 11rem;
         height: 3rem;
-        top: 49.5%;
+        top: 49.2%;
         left: 8%;
     }
-    .page-askup.askup-start08 .btn.click .click-point {
-        top: 26%;
-        left: 80%;
-    }
 
-    .page-askup.askup-start09 .btn.click {
-        width: 24rem;
-        height: 3rem;
+    .askup-start09 .btn.click {
+        width: 100%;
+        height: 2.8rem;
         top: 39%;
-        left: 7%;
-    }
-    .page-askup.askup-start09 .btn.click .click-point {
-        top: 27%;
-        left: 83%;
+        left: 0;
     }
 
-    .page-askup.askup-start10 .btn.click {
-        width: 8.1rem;
-        height: 3rem;
+    .askup-start10 .btn.click {
+        width: 7.4rem;
+        height: 2.6rem;
         top: 53.3%;
         left: 51%;
     }
-    .page-askup.askup-start10 .btn.click .click-point {
-        top: 27%;
-        left: 83%;
-    }
 
-    .page-askup.askup-start11 .acting .toastbar {
+    .askup-start11 .acting .toastbar {
+        width: 100%;
         top: -86px;
         left: 0;
         animation: toast 0.6s forwards 1.4s 1;
@@ -90,9 +75,9 @@
         }
     }
 
-    .page-askup.askup-start11 .acting .btn.click {
+    .askup-start11 .acting .btn.click {
         width: 100%;
-        height: 6rem;
+        height: 5.5rem;
         top: 0;
         left: 0;
         opacity: 0;
@@ -107,12 +92,7 @@
         }
     }
 
-    .page-askup.askup-start11 .acting .btn.click .click-point {
-        top: 27%;
-        left: 88%;
-    }
-
-    .page-askup.askup-start11 .check {
+    .askup-start11 .check {
         width: 7.5rem;
         top: 50%;
         left: 50%;
@@ -136,39 +116,30 @@
 
 
 /* S : 질문하기 */
-    .page-askup.askup-chat01 .btn.click,
-    .page-askup.askup-chat02 .btn.click {
-        width: 25rem;
+    .askup-chat01 .btn.click,
+    .askup-chat02 .btn.click {
+        width: 100%;
         height: 3.5rem;
-        top: 65.2%;
-        left: 5%;
+        top: 64.8%;
+        left: 0;
     }
-    .page-askup.askup-chat02 .btn.click {
-        top: 49.3%;
-    }
-    .page-askup.askup-chat01 .btn.click .click-point,
-    .page-askup.askup-chat02 .btn.click .click-point {
-        top: 28%;
-        left: 50%;
+    .askup-chat02 .btn.click {
+        top: 49%;
     }
 
-    .page-askup.askup-chat03 .btn.click {
-        width: 3.5rem;
+    .askup-chat03 .btn.click {
+        width: 3.4rem;
         height: 2.5rem;
         top: 12.3%;
         left: 70%;
     }
-    .page-askup.askup-chat03 .btn.click .click-point {
-        top: 25%;
-        left: 60%;
+
+    .askup-chat04 .btn.click {
+        top: 74.2%;
+        left: 24%;
     }
 
-    .page-askup.askup-chat04 .btn.click {
-        top: 74.5%;
-        left: 24.5%;
-    }
-
-    .page-askup.askup-chat05 .btn.click {
+    .askup-chat05 .btn.click {
         top: 51.5%;
         right: 0;
     }

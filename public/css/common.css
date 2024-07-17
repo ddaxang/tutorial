@@ -270,10 +270,13 @@ html, body {
             height: 1.5rem;
             left: 50%;
             top: 50%;
-            transform: translate(-50%,-50%);
             background-color: var(--red);
             border-radius: 50%;
             opacity: 0.8;
+        }
+
+        .click-point {
+            transform: translate(-50%, -50%);
         }
 
         .click-point.dark,
@@ -287,17 +290,14 @@ html, body {
             content: "";
             left: 0;
             top: 0;
-            animation: point 1.8s infinite;
         }
 
         .click-point::before {
-            animation: point1 1.8s infinite;
-            animation-delay: 0.2s;
+            animation: point1 1.8s infinite 0.2s;
         }
         
         .click-point::after {
-            animation: point2 1.8s infinite;
-            animation-delay: 0.6s;
+            animation: point2 1.8s infinite 0.6s;
         }
 
         .click-point span {
@@ -306,7 +306,7 @@ html, body {
 
         @keyframes point1 {
             0% {
-                opacity: 0.6;
+                opacity: 0.8;
                 transform: scale(1);
             }
             100% {
@@ -333,11 +333,6 @@ html, body {
             transform: translate(-50%, -50%);
             opacity: 0;
             animation: final 0.6s forwards 1.5s 1;
-        }
-
-        .btn.final .click-point {
-            top: 34%;
-            right: 20%;
         }
 
         @keyframes final {

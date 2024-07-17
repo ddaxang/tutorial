@@ -2,23 +2,15 @@
 .youtube-subscribe01 .btn.click {
     width: 3rem;
     height: 3rem;
-    top: 0.5%;
+    top: 0;
     right: 0.5%;
-}
-.youtube-subscribe01 .btn.click .click-point {
-    top: 7%;
-    right: 54%;
 }
 
 .youtube-subscribe02 .btn.click {
-    width: 100%;
-    height: 22.6rem;
-    bottom: 0;
-    left: 0;
-}
-.youtube-subscribe02 .btn.click .click-point {
-    top: 44%;
-    right: 46%;
+    width: 3rem;
+        height: 3rem;
+    bottom: 19.6%;
+    left: 3.5%;
 }
 
 .youtube-subscribe03 .btn.click {
@@ -27,67 +19,43 @@
     bottom: 8.6%;
     right: 0.5%;
 }
-.youtube-subscribe03 .btn.click .click-point {
-    top: -9%;
-    right: 55%;
-}
 
 .youtube-subscribe04 .btn.click {
-    width: 100%;
-    height: 8.25rem;
-    top: 6%;
-    left: 0;
-}
-.youtube-subscribe04 .btn.click .click-point {
-    top: 34%;
-    right: 47%;
+    width: 3rem;
+    height: 2rem;
+    top: 16%;
+    left: 50%;
 }
 
 .youtube-subscribe05 .btn.click {
     width: 100%;
-    height: 2.5rem;
+    height: 2.3rem;
     top: 39.4%;
     left: 0;
-}
-.youtube-subscribe05 .btn.click .click-point {
-    top: 21%;
-    right: 40%;
 }
 
 .youtube-subscribe06 .btn.click {
     width: 100%;
-    height: 19.8rem;
+    height: 18rem;
     top: 50%;
     left: 0;
-}
-.youtube-subscribe06 .btn.click .click-point {
-    top: 21%;
-    right: 45%;
 }
 /* E : 구독 */
 
 
 /* S : 공유하기 */
 .youtube-share01 .btn.click {
-    width: 4.87rem;
-    height: 2.12rem;
+    width: 4.5rem;
+    height: 2.1rem;
     top: 45.9%;
     left: 33%;
 }
-.youtube-share01 .btn.click .click-point {
-    top: 18%;
-    right: 56%;
-}
 
 .youtube-share02 .btn.click {
-    width: 5.37rem;
-    height: 5.75rem;
+    width: 5rem;
+    height: 5rem;
     top: 68.5%;
-    left: 2.5%;
-}
-.youtube-share02 .btn.click .click-point {
-    top: 6%;
-    right: 8%;
+    left: 2%;
 }
 
 .youtube-share03 .btn.click {
@@ -96,20 +64,12 @@
     top: 40.2%;
     right: 2.9%;
 }
-.youtube-share03 .btn.click .click-point {
-    top: 2%;
-    right: 49%;
-}
 
 .youtube-share04 .btn.click {
     width: 5.8rem;
     height: 2.8rem;
     top: 1.2%;
     right: 0.5%;
-}
-.youtube-share04 .btn.click .click-point {
-    top: 23%;
-    right: 81%;
 }
 /* E : 공유하기 */
 
@@ -125,63 +85,42 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.youtube-after01 .btn.click .click-point {
-    top: 30%;
-    right: 14%;
-}
 
 .youtube-after02 .btn.click {
     width: 2.5rem;
     height: 2.5rem;
-    top: 37.4%;
-    right: 1%;
-}
-.youtube-after02 .btn.click .click-point {
-    top: -5%;
-    right: 69%;
+    top: 37%;
+    right: 0.5%;
 }
 
 .youtube-after03 .btn.click {
     width: 100%;
     height: 3.5rem;
-    top: 57.2%;
+    top: 57%;
     right: 0;
-}
-.youtube-after03 .btn.click .click-point {
-    top: 27%;
-    right: 38%;
 }
 
 .youtube-after04 .btn.click {
-    width: 5.6rem;
+    width: 5rem;
     height: 3.5rem;
-    top: 86.8%;
+    top: 86.5%;
     right: 0;
-}
-.youtube-after04 .btn.click .click-point {
-    top: 10%;
-    right: 66%;
 }
 
 .youtube-after05 .btn.click {
-    width: 10.6rem;
-    height: 10.6rem;
+    width: 9.6rem;
+    height: 8.8rem;
     top: 58.8%;
     left: 1%;
 }
 .youtube-after05 .btn.click .click-point {
-    top: 21%;
-    right: 23%;
+    top: 30%;
 }
 
 .youtube-after06 .btn.click {
     width: 100%;
-    height: 7rem;
+    height: 6.5rem;
     top: 63.4%;
     left: 0;
-}
-.youtube-after06 .btn.click .click-point {
-    top: 40%;
-    right: 10%;
 }
 /* E : 나중에 볼 동영상 */

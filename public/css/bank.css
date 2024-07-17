@@ -6,10 +6,6 @@
         top: 40.2%;
         left: 10%;
     }
-    .page-bank.bank-check01 .btn.click .click-point {
-        top: 29%;
-        right: 15%;
-    }
 
 
     .page-bank.bank-check02 .btn.click {
@@ -18,21 +14,12 @@
         top: 40.5%;
         right: 5%;
     }
-    .page-bank.bank-check02 .btn.click .click-point {
-        top: 30%;
-        right: 0;
-    }
-
 
     .page-bank.bank-check03 .btn.click {
         width: 5.3rem;
         height: 2.8rem;
         top: 44.8%;
         left: 5%;
-    }
-    .page-bank.bank-check03 .btn.click .click-point {
-        top: 30%;
-        right: 0;
     }
 
 
@@ -42,20 +29,11 @@
         top: 64.5%;
         left: 50%;
     }
-    .page-bank.bank-check04 .btn.click .click-point {
-        top: 30%;
-        right: 20%;
-    }
 
     .page-bank.bank-check05 .btn.click {
         top: 86%;
-        left: 5%;
     }
 
-    .page-bank.bank-check06 .btn-final .click-point {
-        top: 30%;
-        left: 75%;
-    }
 /* E : 거래내역조회 */
 
 
@@ -66,66 +44,53 @@
         top: 40.2%;
         left: 50%;
     }
-    .page-bank.bank-give01 .btn.click .click-point {
-        top: 29%;
-        right: 15%;
-    }
-
 
     .page-bank .btn.num {
         width: 8rem;
         height: 3.5rem;
     }
-    .page-bank .btn.num .click-point {
-        top: 30%;
-        right: 19%;
-    }
 
     .page-bank.bank-give02 .btn.click {
         top: 60%;
-        right: 6%;
+        right: 4.5%;
     }
 
     .page-bank.bank-give03 .btn.click,
     .page-bank.bank-give04 .btn.click {
         top: 77.2%;
-        left: 6%;
+        left: 4.5%;
     }
 
     .page-bank.bank-give05 .btn.click {
         top: 77.2%;
-        left: 36%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .page-bank .btn.full {
-        width: 25rem;
+        width: 100%;
         height: 3rem;
         top: 86.5%;
-        left: 5%;
-    }
-    .page-bank .btn.full .click-point {
-        top: 30%;
-        left: 60%;
+        left: 0;
     }
 
     .page-bank.bank-give07 .btn.click {
         top: 17.3%;
     }
     .page-bank.bank-give07 .btn.click .click-point {
-        left: 90%;
+        left: 92%;
     }
 
     .page-bank.bank-give08 .btn.click {
-        top: 24.5%;
+        top: 24.2%;
     }
     .page-bank.bank-give08 .btn.click .click-point {
-        top: 26%;
-        left: 35%;
+        left: 15%;
     }
 
     .page-bank.bank-give09 .btn.click {
         top: 68.6%;
-        left: 6%;
+        left: 4.5%;
     }
     
     .page-bank.bank-give10 .img1 {
@@ -152,20 +117,17 @@
     .page-bank.bank-give11 .btn.click {
         width: 12.5rem;
         height: 3rem;
-        top: 86.5%;
+        top: 86.2%;
         left: 50%;
-    }
-    .page-bank.bank-give11 .btn.click .click-point {
-        top: 30%;
-        right: 20%;
     }
 
     .page-bank.bank-give12 .btn.click,
     .page-bank.bank-give13 .btn.click,
     .page-bank.bank-give14 .btn.click,
     .page-bank.bank-give15 .btn.click {
-        top: 66.4%;
-        left: 36%;
+        top: 66.2%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .page-bank.bank-give16 .btn.click {
