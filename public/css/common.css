@@ -159,7 +159,6 @@ html, body {
 
     .page {
         margin-top: 60px;
-        padding-bottom: 56px !important;
         height: calc(100% - 60px);
         overflow-x: hidden;
         overflow-y: auto;
