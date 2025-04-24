@@ -96,7 +96,7 @@ html, body {
 }
 
 body {
-    background: url("/img/bg.jpg") no-repeat top left / cover;
+    background: url("/tutorial/img/bg.jpg") no-repeat top left / cover;
 }
 /* E : body */
 
@@ -129,7 +129,7 @@ body {
         left: 0;
         width: 100%;
         height: calc(100% - 80px);
-        background: url(/img/frame_top.png) no-repeat center top;
+        background: url(/tutorial/img/frame_top.png) no-repeat center top;
         background-size: contain;
         overflow: hidden;
     }
@@ -140,7 +140,7 @@ body {
         left: 0;
         width: 100%;
         height: calc(100% - 80px);
-        background: url(/img/frame_bottom.png) no-repeat center bottom;
+        background: url(/tutorial/img/frame_bottom.png) no-repeat center bottom;
         background-size: contain;
         overflow: hidden;
     }
