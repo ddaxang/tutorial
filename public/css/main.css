@@ -1,6 +1,6 @@
 /* S : main-menu */
     .main-menu {
-        font-family: 'GmarketSans';
+        font-family: 'Gmarket Sans';
     }
     .main-menu li {
         width: calc(50% - 5px);
@@ -69,7 +69,7 @@
         .page h3,
         .page h4,
         .page h5 {
-            font-family: 'GmarketSans';
+            font-family: 'Gmarket Sans';
             line-height: 1.4;
         }
         
@@ -98,7 +98,7 @@
     /* S : app */
         .box {
             width: 100%;
-            padding: 30px 20px 50px;
+            padding: 30px 20px 70px;
             border-radius: 20px 20px 0 0;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
             background: var(--white);
@@ -172,12 +172,12 @@
     
     .intro .text-wrap li:last-child {
         font-size: 1.31em;
-        font-family: 'GmarketSans';
+        font-family: 'Gmarket Sans';
         font-weight: 700;
     }
     .page .box > p {
         color: var(--text-sub);
-        font-family: 'GmarketSans';
+        font-family: 'Gmarket Sans';
         line-height: 1.5;
     }
     .page .box > p:nth-child(2) {
@@ -200,7 +200,7 @@
     .done .text-wrap li {
         color: var(--text-sub);
         font-size: 1.31rem;
-        font-family: 'GmarketSans';
+        font-family: 'Gmarket Sans';
         font-weight: 500;
     }
     .done .btn-wrap a {

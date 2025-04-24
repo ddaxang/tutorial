@@ -1,40 +1,5 @@
-/* S : 폰트 - Cafe24써라운드 */
-    @font-face {
-        font-family: 'GmarketSans';
-        font-weight: 300;
-        font-style: normal;
-        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
-        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
-            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
-            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
-            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
-        font-display: swap;
-    } 
-    
-    @font-face {
-        font-family: 'GmarketSans';
-        font-weight: 500;
-        font-style: normal;
-        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
-        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
-            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
-            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
-            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
-        font-display: swap;
-    } 
-
-    @font-face {
-        font-family: 'GmarketSans';
-        font-weight: 700;
-        font-style: normal;
-        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
-        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
-            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
-            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
-            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
-        font-display: swap;
-    }
-/* E : 폰트 - Cafe24써라운드 */
+/* 폰트 - G마켓산스 */
+@import url('https://cdn.jsdelivr.net/gh/leetaewook/gmarket-sans-dynamic-subset/GmarketSans.css');
 
 
 /* S : base style */
@@ -96,7 +61,7 @@ html, body {
 }
 
 body {
-    background: url("/tutorial/public/img/bg.jpg") no-repeat top left / cover;
+    background: url("/img/bg.jpg") no-repeat top left / cover;
 }
 /* E : body */
 
@@ -208,7 +173,7 @@ body {
 
     .header a {
         color: var(--white);
-        font-family: 'GmarketSans';
+        font-family: 'Gmarket Sans';
     }
     .header a:first-child > span.material-symbols-rounded {
         font-size: 2rem;
@@ -255,7 +220,7 @@ body {
     nav .info {
         color: var(--secondary);
         background-color: var(--p100);
-        font-family: 'GmarketSans';
+        font-family: 'Gmarket Sans';
         font-size: 1.13em;
         font-weight: 500;
     }
@@ -342,9 +307,9 @@ body {
         .btn.main {
             width: 100%;
             max-width: 18rem;
-            padding: 15px 0 18px;
+            padding: 20px 0 15px;
             font-size: 1.75em;
-            font-family: 'GmarketSans';
+            font-family: 'Gmarket Sans';
             font-weight: 700;
             line-height: 100%;
             border: 5px solid var(--white);

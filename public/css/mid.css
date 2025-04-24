@@ -13,52 +13,52 @@
     }
 
     .mid-start img:nth-child(1) {z-index: 2;}
-    .mid-start img:nth-child(3) {z-index: 1;}
-    .mid-start + div {
+    .mid-start ~ img.btn-box {z-index: 1;}
+    .mid-start ~ div {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 2;
     }
-    .mid-start + div .btn.click {
+    .mid-start ~ div .btn.click {
         width: 100%;
         height: 3.5rem;
         bottom: 19.6%;
         left: 0;
     }
 
-    .mid-start03 + div .btn.click,
-    .mid-start04 + div .btn.click,
-    .mid-start07 + div .btn.click,
-    .mid-start11 + div .btn.click,
-    .mid-start18 + div .btn.click,
-    .mid-start20 + div .btn.click,
-    .mid-start38 + div .btn.click {
+    .mid-start03 .btn.click,
+    .mid-start04 .btn.click,
+    .mid-start07 ~ div .btn.click,
+    .mid-start11 ~ div .btn.click,
+    .mid-start18 ~ div .btn.click,
+    .mid-start20 ~ div .btn.click,
+    .mid-start38 ~ div .btn.click {
         width: 100%;
         height: 3.5rem;
         top: 0;
         left: 0;
     }
 
-    .mid-start08 + div,
-    .mid-start09 + div,
-    .mid-start17 + div,
-    .mid-start36 + div {
+    .mid-start08 ~ div,
+    .mid-start09 ~ div,
+    .mid-start17 ~ div,
+    .mid-start36 ~ div {
         top: unset;
         bottom: 30px;
         transform: translate(-50%, 0);
     }
-    .mid-start08 + div .btn.click {
+    .mid-start08 ~ div .btn.click {
         width: 100%;
         height: 3.5rem;
         top: 18.8%;
         left: 0;
     }
-    .mid-start08 + div .btn.click .click-point {
+    .mid-start08 ~ div .btn.click .click-point {
         left: 16.5%;
     }
 
-    .mid-start09 + div .btn.click {
+    .mid-start09 ~ div .btn.click {
         width: 100%;
         height: 3.5rem;
         top: unset;
@@ -198,15 +198,15 @@
         right: 0;
     }
 
-    .mid-start36 + div .btn.click {
-        bottom: 20px;
+    .mid-start36 ~ div .btn.click {
+        bottom: 15px;
         left: unset;
-        right: 35px;
+        right: 30px;
         width: 51%;
         height: 3.5rem;
     }
     
-    .mid-start37 + div .btn.click {
+    .mid-start37 ~ div .btn.click {
         width: 4rem;
         height: 4rem;
         left: 50%;
@@ -239,7 +239,7 @@
 
     /* 얼굴스캔 */
     .face-scan {
-        margin-top: 40px;
+        margin-top: 30px;
         text-align: center;
     }
 
@@ -319,16 +319,16 @@
     right: 10%;
 }
 
-.mid-issue04 + div .btn.click {
+.mid-issue04 .btn.click {
     width: 100%;
-    height: 3.125rem;
-    top: 0;
+    height: 3.5rem;
+    top: 9%;
     left: 0;
 }
 
 .mid-issue05 .btn.click {
-    width: 18.9rem;
-    height: 3.125rem;
+    width: 100%;
+    height: 3.5rem;
     bottom: 4.6%;
     left: 50%;
     transform: translateX(-50%);
@@ -336,7 +336,7 @@
 
 .mid-issue06 + div .btn.click {
     width: 100%;
-    height: 3.125rem;
+    height: 3.5rem;
     top: 0;
     left: 0;
 }
@@ -352,7 +352,7 @@
     transform: translateX(-50%);
 }
 .mid-issue07 + div .btn.click .click-point {
-    left: 9.4%;
+    left: 9.6%;
 }
 
 .mid-issue08 + div {
@@ -368,15 +368,15 @@
 
 .mid-issue09 + div .btn.click {
     width: 100%;
-    height: 3.125rem;
+    height: 3.5rem;
     top: 0;
     left: 0;
 }
 
-.mid-issue11 + div .btn.click {
+.mid-issue11 .btn.click {
     width: 100%;
-    height: 3.125rem;
-    top: 0;
+    height: 3.5rem;
+    top: 9%;
     left: 0;
 }
 
@@ -427,7 +427,7 @@
 
 .mid-issue26 + div .btn.click {
     width: 100%;
-    height: 3.125rem;
+    height: 3.5rem;
     top: 0;
     left: 0;
 }
@@ -473,7 +473,7 @@
         right: 0;
     }
 
-    .mid-use09 + div {
+    .mid-use09 > div {
         border-radius: 10px 10px 0 0;
         box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
     }
