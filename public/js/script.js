@@ -38,9 +38,9 @@ function storeLog(name, href) {
 
 $(function() {
   // Header, Footer 레이아웃
-  $('#header').load('/layout/header.html');
-  $('#footer-logo').load('/layout/footer-logo.html');
-  $('#footer-info').load('/layout/footer-info.html');
+  $('#header').load('/tutorial/public/layout/header.html');
+  $('#footer-logo').load('/tutorial/public/layout/footer-logo.html');
+  $('#footer-info').load('/tutorial/public/layout/footer-info.html');
 
   // 준비중 alert
   $('.ready').on('click', function() {
