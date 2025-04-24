@@ -1,0 +1,496 @@
+@charset "utf-8";
+
+
+/* S : 시작하기 */
+    .mid-start01 .btn.click {
+        width: 4.6rem;
+        height: 6.25rem;
+        top: 69%;
+        left: 29%;
+    }
+    .mid-start01 .btn.click .click-point {
+        top: 38%;
+    }
+
+    .mid-start img:nth-child(1) {z-index: 2;}
+    .mid-start img:nth-child(3) {z-index: 1;}
+    .mid-start + div {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+    .mid-start + div .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        bottom: 19.6%;
+        left: 0;
+    }
+
+    .mid-start03 + div .btn.click,
+    .mid-start04 + div .btn.click,
+    .mid-start07 + div .btn.click,
+    .mid-start11 + div .btn.click,
+    .mid-start18 + div .btn.click,
+    .mid-start20 + div .btn.click,
+    .mid-start38 + div .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        top: 0;
+        left: 0;
+    }
+
+    .mid-start08 + div,
+    .mid-start09 + div,
+    .mid-start17 + div,
+    .mid-start36 + div {
+        top: unset;
+        bottom: 30px;
+        transform: translate(-50%, 0);
+    }
+    .mid-start08 + div .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        top: 18.8%;
+        left: 0;
+    }
+    .mid-start08 + div .btn.click .click-point {
+        left: 16.5%;
+    }
+
+    .mid-start09 + div .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        top: unset;
+        bottom: 20px;
+        left: 0;
+    }
+
+    .keyboard-wrap,
+    .mid-start18 + div .btn.click {
+        border-radius: 10px 10px 0 0;
+        box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
+    }
+    .keyboard-wrap .btn.click.key {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .mid-start10 + .keyboard-wrap .btn.click {
+        bottom: 49.3%;
+        left: 29%;
+    }
+
+    .mid-start11 + div .btn.click {
+        top: 4.4%;
+    }
+
+    .keyboard-wrap .btn.num01 {
+        width: 8rem;
+        height: 3rem;
+    }
+    .keyboard-wrap .btn.num02 {
+        width: 8.3rem;
+        height: 4.5rem;
+    }
+
+    .mid-start12 + div .btn.click {
+        top: 40%;
+        right: 5px;
+    }
+
+    .mid-start13 + div .btn.click {
+        top: 25%;
+        right: 0;
+    }
+
+    .mid-start15 + div .btn.click {
+        bottom: 11%;
+        left: 49.7%;
+        transform: translate(-50%, -50%);
+    }
+
+    .mid-start16 + div .btn.click,
+    .mid-start21 + div .btn.click {
+        top: 4%;
+        right: 15px;
+        width: 62.5%;
+        height: 3.5rem;
+    }
+
+    .mid-start17 + div .btn.click {
+        width: 83%;
+        height: 3rem;
+        top: 37%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mid-start17 + div .btn.click .click-point {
+        left: 15%;
+    }
+
+    .mid-start18 + div .btn.click {
+        height: 100%;
+    }
+    .mid-start18 + div .btn.click .click-point {
+        top: 45%;
+    }
+
+    .mid-start20 .message {
+        top: 3%;
+        animation: slidein 0.4s linear;
+    }
+    @keyframes slidein {
+        0% {
+            opacity: 0;
+            top: 0;
+        }
+        100% {
+            opacity: 100%;
+            top: 3%;
+        }
+    }
+    .mid-start20 + div .btn.click {
+        top: 21%;
+    }
+
+    .mid-start22 + div .btn.click,
+    .mid-start33 + div .btn.click {
+        width: 8.4rem;
+        height: 4.6rem;
+        top: 0;
+        left: 0;
+    }
+    
+    .mid-start23 + div .btn.click,
+    .mid-start25 + div .btn.click,
+    .mid-start31 + div .btn.click {
+        width: 8.4rem;
+        height: 4.6rem;
+        top: 24.8%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .mid-start24 + div .btn.click,
+    .mid-start30 + div .btn.click,
+    .mid-start32 + div .btn.click {
+        width: 8.4rem;
+        height: 4.6rem;
+        bottom: 25%;
+        left: 0;
+    }
+    
+    .mid-start26 + div .btn.click,
+    .mid-start34 + div .btn.click {
+        width: 8.4rem;
+        height: 4.6rem;
+        bottom: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .mid-start27 + div .btn.click,
+    .mid-start29 + div .btn.click {
+        width: 8.4rem;
+        height: 4.6rem;
+        top: 0;
+        right: 0;
+    }
+
+    .mid-start36 + div .btn.click {
+        bottom: 20px;
+        left: unset;
+        right: 35px;
+        width: 51%;
+        height: 3.5rem;
+    }
+    
+    .mid-start37 + div .btn.click {
+        width: 4rem;
+        height: 4rem;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+
+/* E : 시작하기 */
+
+
+/* S : 발급하기 */
+
+    /* 팝업 */
+    .popup-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+    }
+
+    .popup-wrap .popup-img.center {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* end 팝업 */
+
+    /* 얼굴스캔 */
+    .face-scan {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .face-scan > img {
+        width: 70%;
+    }
+
+    .loader {
+        position: absolute;
+        width: 96%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .loader::before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+    }
+
+    .circular {
+        animation: rotate 2s linear infinite;
+        height: 100%;
+        transform-origin: center center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .path {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+        animation: dash 1.5s ease-in-out infinite;
+        stroke-linecap: round;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes dash {
+        0% {
+            stroke-dasharray: 1, 200;
+            stroke-dashoffset: 0;
+        }
+
+        50% {
+            stroke-dasharray: 89, 200;
+            stroke-dashoffset: -35px;
+        }
+
+        100% {
+            stroke-dasharray: 89, 200;
+            stroke-dashoffset: -124px;
+        }
+    }
+    /* end 얼굴스캔 */
+
+.mid-issue01 .btn.click {
+    width: 49.5%;
+    height: 2.5rem;
+    top: 28.2%;
+    right: 8%;
+}
+
+.mid-issue03 .btn.click {
+    width: 9.5rem;
+    height: 1.6rem;
+    top: 9%;
+    right: 10%;
+}
+
+.mid-issue04 + div .btn.click {
+    width: 100%;
+    height: 3.125rem;
+    top: 0;
+    left: 0;
+}
+
+.mid-issue05 .btn.click {
+    width: 18.9rem;
+    height: 3.125rem;
+    bottom: 4.6%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mid-issue06 + div .btn.click {
+    width: 100%;
+    height: 3.125rem;
+    top: 0;
+    left: 0;
+}
+
+.mid-issue07 + div {
+    margin-bottom: 20px;
+}
+.mid-issue07 + div .btn.click {
+    width: 20.7rem;
+    height: 3.2rem;
+    top: 14.8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mid-issue07 + div .btn.click .click-point {
+    left: 9.4%;
+}
+
+.mid-issue08 + div {
+    margin-bottom: 20px;
+}
+.mid-issue08 + div .btn.click {
+    width: 20.7rem;
+    height: 3.13rem;
+    bottom: 5.2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mid-issue09 + div .btn.click {
+    width: 100%;
+    height: 3.125rem;
+    top: 0;
+    left: 0;
+}
+
+.mid-issue11 + div .btn.click {
+    width: 100%;
+    height: 3.125rem;
+    top: 0;
+    left: 0;
+}
+
+.mid-issue18 + div .btn.click {
+    width: 8.4rem;
+    height: 4.6rem;
+    top: 0;
+    left: 0;
+}
+
+.mid-issue19 + div .btn.click {
+    width: 8.4rem;
+    height: 4.6rem;
+    top: 24.8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mid-issue20 + div .btn.click {
+    width: 8.4rem;
+    height: 4.6rem;
+    bottom: 25%;
+    left: 0;
+}
+
+.mid-issue21 + div .btn.click {
+    width: 8.4rem;
+    height: 4.6rem;
+    top: 24.8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mid-issue22 + div .btn.click {
+    width: 8.4rem;
+    height: 4.6rem;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mid-issue23 + div .btn.click {
+    width: 8.4rem;
+    height: 4.6rem;
+    top: 0;
+    right: 0;
+}
+
+.mid-issue26 + div .btn.click {
+    width: 100%;
+    height: 3.125rem;
+    top: 0;
+    left: 0;
+}
+/* E : 발급하기 */
+
+
+/* S : 사용하기 */
+    .mid-use02 + div .btn.click {
+        width: 8.4rem;
+        height: 4.6rem;
+        top: 0;
+        left: 0;
+    }
+
+    .mid-use03 + div .btn.click,
+    .mid-use05 + div .btn.click {
+        width: 8.4rem;
+        height: 4.6rem;
+        top: 24.8%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .mid-use04 + div .btn.click {
+        width: 8.4rem;
+        height: 4.6rem;
+        bottom: 25%;
+        left: 0;
+    }
+
+    .mid-use06 + div .btn.click {
+        width: 8.4rem;
+        height: 4.6rem;
+        bottom: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .mid-use07 + div .btn.click {
+        width: 8.4rem;
+        height: 4.6rem;
+        top: 0;
+        right: 0;
+    }
+
+    .mid-use09 + div {
+        border-radius: 10px 10px 0 0;
+        box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
+    }
+    .mid-use09 .btn.click {
+        width: 68%;
+        height: 60%;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .mid-use10 {
+        background-color: #000F29;
+        height: 100%;
+    }
+    .page > article.mid-use10 > img {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+/* E : 사용하기 */

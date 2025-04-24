@@ -7,84 +7,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
 
     <!-- S : 파비콘 -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/public/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/public/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/public/img/favicon/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/public/img/favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/public/img/favicon/android-chrome-512x512.png">
-    <link rel="manifest" href="/public/img/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/favicon/android-chrome-512x512.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
     <!-- E : 파비콘 -->
 
-    <!-- S : 네이버 필수 메타 태그 -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Script-Type" content="text/javascript">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta http-equiv="imagetoolbar" content="no">
-    <!-- E : 네이버 필수 메타 태그 -->
-
     <!-- S : OG 오픈그래프 (카카오톡 미리보기) -->
-    <meta property="og:url" content="http://스마트폰앱체험학습.kr">
-    <meta property="og:image" content="/public/img/thumbnail.svg">
+    <meta property="og:url" content="http://tuto.ssdigitaledu.co.kr/">
+    <meta property="og:image" content="/img/thumbnail.svg">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="스마트폰 앱 체험 학습">
-    <meta property="og:site_name" content="스마트폰 앱 체험 학습">
+    <meta property="og:title" content="스마트한 일상 앱 활용 교육">
+    <meta property="og:site_name" content="스마트한 일상 앱 활용 교육">
     <meta property="og:description" content="스마트폰 초보자들을 위한 튜토리얼">
     <!-- E : OG 오픈그래프 (카카오톡 미리보기) -->
 
-    <!-- S : 스마트폰 앱 체험 학습 설명 -->
-    <meta name="title" content="스마트폰 앱 체험 학습">
-    <meta name="keyword" content="스마트폰 앱 체험 학습, 디지털배움터, 디지털학습지원, 스마트폰, 체험, 튜토리얼, 시뮬레이션">
+    <!-- S : 스마트한 일상 앱 활용 교육 설명 -->
+    <meta name="title" content="스마트한 일상 앱 활용 교육">
+    <meta name="keyword" content="스마트한 일상 앱 활용 교육, 디지털배움터, 디지털학습지원, 스마트폰, 체험, 튜토리얼, 시뮬레이션">
     <meta name="description" content="디지털 학습 지원 사업으로 스마트폰 앱 기초 지식을 습득하고 싶은 초보자들을 위한 튜토리얼">
-    <title>스마트폰 앱 체험 학습</title>
-    <!-- E : 스마트폰 앱 체험 학습 설명 -->
+    <title>스마트한 일상 앱 활용 교육</title>
+    <!-- E : 스마트한 일상 앱 활용 교육 설명 -->
 
     <!-- S : bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- E : bootstrap -->
 
-    <!-- ㄴ : CDN -->
+    <!-- S : CDN -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- E : CDN -->
 
     <!-- S : CSS -->
-    <link rel="stylesheet" href="/public/css/base.css">
-    <link rel="stylesheet" href="/public/css/common.css">
-    <link rel="stylesheet" href="/public/css/nhis.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/nhis.css">
     <!-- E : CSS -->
 
     <!-- S : jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="/public/js/script.js"></script>
+    <script src="/js/script.js"></script>
     <!-- E : jquery -->
 </head>
 
 <body>
     <!-- S : wrap -->
     <div id="wrap" class="container position-relative">
-        <!-- S : header -->
-        <header id="header02" class="z-2 position-absolute w-100"></header>
-        <!-- E : header -->
 
-        <!-- S : content- -->
-        <section id="content" class="page position-relative" style="background: #FFFFFF;">
-            <!-- S : 건강검진결과조회 step05 -->
-            <article class="page-nhis nhis-check05 position-relative">
-                <img src="/public/img/nhis/check05.svg" loading="lazy" alt="상세안내 선택">
-                <a href="/public/view/nhis/check/done.html" class="btn main primary click final position-absolute">
-                    체험완료
-                    <!-- S : click point -->
-                    <div class="click-point">
-                        <span>click here</span>
-                    </div>
-                    <!-- S : click point -->
-                </a>
-            </article>
-            <!-- E : 건강검진결과조회 step05 -->
-        </section>
-        <!-- E : content- -->
+        <!-- S : frame -->
+        <div class="frame position-absolute">
+            <div class="top"></div>
+            <div class="bottom"></div>
+        </div>
+        <!-- E : frame -->
+
+        <!-- S : inner -->
+        <div class="inner position-relative">
+            <!-- S : header -->
+            <header id="header" class="z-2 position-absolute w-100"></header>
+            <!-- E : header -->
+
+            <!-- S : content- -->
+            <section id="content" class="page position-relative" style="background: #FFFFFF;">
+                <!-- S : 건강검진결과조회 step05 -->
+                <article class="page-nhis nhis-check05 position-relative">
+                    <img src="/img/nhis/check05.svg" alt="상세안내 선택">
+                    <a href="javascript:storeLog('The건강보험-건강검진 결과조회','/view/nhis/done.html')"
+                        class="btn main primary click final position-absolute">
+                        체험완료
+                        <!-- S : click point -->
+                        <div class="click-point">
+                            <span>click here</span>
+                        </div>
+                        <!-- S : click point -->
+                    </a>
+                </article>
+                <!-- E : 건강검진결과조회 step05 -->
+            </section>
+            <!-- E : content- -->
+        </div>
+        <!-- E : inner -->
+
     </div>
     <!-- E : wrap -->
 </body>

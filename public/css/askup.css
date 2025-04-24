@@ -3,80 +3,81 @@
         width: 3rem;
         height: 3rem;
     }
-    .page-askup .btn.click.key .click-point {
-        top: 26%;
-        left: 26%;
+
+    .askup-start01 .btn.click {
+        width: 4.6rem;
+        height: 6.25rem;
+        top: 22%;
+        left: 5%;
+    }
+    .askup-start01 .btn.click .click-point {
+        top: 38%;
     }
 
-    .page-askup.askup-start01 .btn.click {
-        top: 1.2%;
+    .askup-start02 .btn.click {
+        top: 1%;
+        right: 36.5%;
+    }
+
+    .askup-start03 + .keyboard-wrap .btn.click {
+        bottom: 45.5%;
+        left: 6.3%;
+    }
+
+    .askup-start04 + .keyboard-wrap .btn.click {
+        bottom: 45.5%;
+        left: 16.6%;
+    }
+
+    .askup-start05 + .keyboard-wrap .btn.click {
+        bottom: 45.5%;
+        right: 16.6%;
+    }
+
+    .askup-start06 + .keyboard-wrap .btn.click {
+        bottom: 61%;
         right: 32%;
     }
 
-    .page-askup.askup-start02 .btn.click {
-        top: 74.5%;
-        left: 4.3%;
+    .askup-start07 + .keyboard-wrap .btn.click {
+        bottom: 61%;
+        right: 2.2%;
     }
 
-    .page-askup.askup-start03 .btn.click {
-        top: 74.5%;
-        left: 14.3%;
+    .askup-start08 + .keyboard-wrap .btn.click {
+        bottom: 14.5%;
+        right: 3.5%;
     }
 
-    .page-askup.askup-start04 .btn.click {
-        top: 74.5%;
-        right: 14.3%;
-    }
-
-    .page-askup.askup-start05 .btn.click {
-        top: 68.5%;
-        right: 29.6%;
-    }
-
-    .page-askup.askup-start06 .btn.click {
-        top: 68.5%;
-        right: 0.2%;
-    }
-
-    .page-askup.askup-start07 .btn.click {
-        bottom: 8.1%;
-        right: 1%;
-    }
-
-    .page-askup.askup-start08 .btn.click {
+    .askup-start09 .btn.click {
         width: 11rem;
         height: 3rem;
-        top: 49.5%;
+        top: 39.3%;
         left: 8%;
     }
-    .page-askup.askup-start08 .btn.click .click-point {
-        top: 26%;
-        left: 80%;
+
+    .askup-start10 .btn.click {
+        width: 100%;
+        height: 2.8rem;
+        top: 33.1%;
+        left: 0;
     }
 
-    .page-askup.askup-start09 .btn.click {
-        width: 24rem;
-        height: 3rem;
-        top: 39%;
-        left: 7%;
+    .askup-start11 + div {
+        width: 82%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-    .page-askup.askup-start09 .btn.click .click-point {
-        top: 27%;
-        left: 83%;
-    }
-
-    .page-askup.askup-start10 .btn.click {
-        width: 8.1rem;
-        height: 3rem;
-        top: 53.3%;
-        left: 51%;
-    }
-    .page-askup.askup-start10 .btn.click .click-point {
-        top: 27%;
-        left: 83%;
+    .askup-start11 + div .btn.click {
+        width: 8.12rem;
+        height: 2.75rem;
+        top: 64%;
+        left: 51.5%;
     }
 
-    .page-askup.askup-start11 .acting .toastbar {
+    .askup-start12 .acting .toastbar {
+        width: 100%;
         top: -86px;
         left: 0;
         animation: toast 0.6s forwards 1.4s 1;
@@ -90,9 +91,9 @@
         }
     }
 
-    .page-askup.askup-start11 .acting .btn.click {
+    .askup-start12 .acting .btn.click {
         width: 100%;
-        height: 6rem;
+        height: 5.5rem;
         top: 0;
         left: 0;
         opacity: 0;
@@ -106,13 +107,8 @@
             opacity: 1;
         }
     }
-
-    .page-askup.askup-start11 .acting .btn.click .click-point {
-        top: 27%;
-        left: 88%;
-    }
-
-    .page-askup.askup-start11 .check {
+    
+    .askup-start12 .check {
         width: 7.5rem;
         top: 50%;
         left: 50%;
@@ -120,7 +116,7 @@
         transform: translate(-50%,-50%);
         animation: check 1.4s forwards 1;
     }
-
+    
     @keyframes check {
         0% {
             opacity: 0;
@@ -132,44 +128,93 @@
             opacity: 0;
         }
     }
-/* E : 채널추가 */
 
-
-/* S : 질문하기 */
-    .page-askup.askup-chat01 .btn.click,
-    .page-askup.askup-chat02 .btn.click {
-        width: 25rem;
+    .askup-start11 .toastbar {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    /* E : 채널추가 */
+    
+    
+    /* S : 질문하기 */
+    .askup-chat01 .btn.click,
+    .askup-chat02 .btn.click {
+        width: 100%;
         height: 3.5rem;
-        top: 65.2%;
-        left: 5%;
+        top: 58.9%;
+        left: 0;
     }
-    .page-askup.askup-chat02 .btn.click {
-        top: 49.3%;
-    }
-    .page-askup.askup-chat01 .btn.click .click-point,
-    .page-askup.askup-chat02 .btn.click .click-point {
-        top: 28%;
-        left: 50%;
+    .askup-chat02 .btn.click {
+        top: 57.3%;
     }
 
-    .page-askup.askup-chat03 .btn.click {
-        width: 3.5rem;
+    .askup-chat03 .btn.click {
+        width: 3rem;
         height: 2.5rem;
-        top: 12.3%;
-        left: 70%;
-    }
-    .page-askup.askup-chat03 .btn.click .click-point {
-        top: 25%;
-        left: 60%;
+        top: 14.3%;
+        left: 69%;
     }
 
-    .page-askup.askup-chat04 .btn.click {
-        top: 74.5%;
-        left: 24.5%;
+    .askup-chat04 + div .btn.click,
+    .askup-chat08 + div .btn.click {
+        bottom: 52.7%;
+        left: 22.2%;
     }
 
-    .page-askup.askup-chat05 .btn.click {
-        top: 51.5%;
-        right: 0;
+    .askup-chat05 + div .btn.click,
+    .askup-chat09 + div .btn.click,
+    .askup-chat13 + div .btn.click {
+        top: 5.3%;
+        right: 2.6%;
+    }
+
+    .askup-chat07 + div .btn.click,
+    .askup-chat11 + div .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        bottom: 16.5%;
+        left: 0;
+        opacity: 0;
+        animation: click 1s forwards 0.6s 1;
+    }
+
+    .askup-chat12 + div .btn.click {
+        bottom: 52.7%;
+        left: 2.3%;
+    }
+
+    .askup-chat15 + div .btn.click {
+        width: 3.5rem;
+        height: 3.5rem;
+        bottom: 17.6%;
+        left: -0.6%;
+        opacity: 0;
+        animation: click 1s forwards 0.6s 1;
+    }
+
+    .askup-chat16 + div .btn.click {
+        width: 3.12rem;
+        height: 4.8rem;
+        bottom: 42.5%;
+        left: 12.6%;
+    }
+    .askup-chat16 + div .btn.click .click-point {
+        top: 37%;
+    }
+
+    .askup-chat17 + div .btn.click {
+        top: 21.8%;
+        left: 28.6%;
+    }
+
+    .askup-chat18 + div .btn.click {
+        top: 6.2%;
+        right: 2.6%;
+    }
+
+    .askup-chat20 .btn.click {
+        width: 9.56rem;
+        height: 2.18rem;
+        bottom: 24%;
+        right: 6.9%;
     }
 /* E : 질문하기 */

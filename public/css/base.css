@@ -82,6 +82,7 @@
     ol,
     li {
         list-style: none;
+        margin-bottom: 0;
     }
 
     em,
@@ -115,7 +116,6 @@
 
     button img {
         left: -3px;
-        *left: auto;
     }
 
     option {
@@ -124,7 +124,6 @@
 
     textarea {
         overflow: hidden;
-        *margin: -1px 0;
         padding-right: 1px;
         resize: none;
     }
@@ -137,7 +136,6 @@
         width: 1px;
         overflow: hidden;
         clip: rect(1px 1px 1px 1px);
-        clip: rect(1px, 1px, 1px, 1px);
     }
 
     blockquote,
@@ -150,25 +148,17 @@
     q:before,
     q:after {
         content: "";
-        content: none;
     }
 
     hr {
         display: none;
     }
 
-    legend {
-        *width: 0;
-    }
 
     :root legend {
         margin-top: -1px;
         font-size: 0;
         line-height: 0;
-    }
-
-    caption {
-        *line-height: 0;
     }
 
     sub {
@@ -201,7 +191,7 @@
 
 
 /* S : 반응형 -----------------------------------------------  */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 424px) {
     html, body {
         font-size: 14px;
         line-height: 1.3;

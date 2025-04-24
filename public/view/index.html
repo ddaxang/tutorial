@@ -7,129 +7,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
 
     <!-- S : 파비콘 -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/public/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/public/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/public/img/favicon/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/public/img/favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/public/img/favicon/android-chrome-512x512.png">
-    <link rel="manifest" href="/public/img/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/favicon/android-chrome-512x512.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
     <!-- E : 파비콘 -->
 
-    <!-- S : 네이버 필수 메타 태그 -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Script-Type" content="text/javascript">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta http-equiv="imagetoolbar" content="no">
-    <!-- E : 네이버 필수 메타 태그 -->
-
     <!-- S : OG 오픈그래프 (카카오톡 미리보기) -->
-    <meta property="og:url" content="http://스마트폰앱체험학습.kr">
-    <meta property="og:image" content="/public/img/thumbnail.svg">
+    <meta property="og:url" content="http://tuto.ssdigitaledu.co.kr/">
+    <meta property="og:image" content="/img/thumbnail.svg">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="스마트폰 앱 체험 학습">
-    <meta property="og:site_name" content="스마트폰 앱 체험 학습">
+    <meta property="og:title" content="스마트한 일상 앱 활용 교육">
+    <meta property="og:site_name" content="스마트한 일상 앱 활용 교육">
     <meta property="og:description" content="스마트폰 초보자들을 위한 튜토리얼">
     <!-- E : OG 오픈그래프 (카카오톡 미리보기) -->
 
-    <!-- S : 스마트폰 앱 체험 학습 설명 -->
-    <meta name="title" content="스마트폰 앱 체험 학습">
-    <meta name="keyword" content="스마트폰 앱 체험 학습, 디지털배움터, 디지털학습지원, 스마트폰, 체험, 튜토리얼, 시뮬레이션">
+    <!-- S : 스마트한 일상 앱 활용 교육 설명 -->
+    <meta name="title" content="스마트한 일상 앱 활용 교육">
+    <meta name="keyword" content="스마트한 일상 앱 활용 교육, 디지털배움터, 디지털학습지원, 스마트폰, 체험, 튜토리얼, 시뮬레이션">
     <meta name="description" content="디지털 학습 지원 사업으로 스마트폰 앱 기초 지식을 습득하고 싶은 초보자들을 위한 튜토리얼">
-    <title>스마트폰 앱 체험 학습</title>
-    <!-- E : 스마트폰 앱 체험 학습 설명 -->
+    <title>스마트한 일상 앱 활용 교육</title>
+    <!-- E : 스마트한 일상 앱 활용 교육 설명 -->
 
     <!-- S : bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- E : bootstrap -->
 
-    <!-- ㄴ : CDN -->
+    <!-- S : CDN -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- E : CDN -->
 
     <!-- S : CSS -->
-    <link rel="stylesheet" href="/public/css/base.css">
-    <link rel="stylesheet" href="/public/css/common.css">
-    <link rel="stylesheet" href="/public/css/main.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/main.css">
     <!-- E : CSS -->
 
     <!-- S : jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="/public/js/script.js"></script>
+    <script src="/js/script.js"></script>
     <!-- E : jquery -->
 </head>
 
 <body>
     <!-- S : wrap -->
     <div id="wrap" class="container position-relative">
-        <!-- S : header -->
-        <header id="header01" class="z-2 position-absolute w-100"></header>
-        <!-- E : header -->
 
-        <!-- S : content -->
-        <section id="content" class="page page-main px-4 py-3 position-relative text-center">
-            <!-- S : title -->
-            <h2 class="position-relative">
-                <span class="w-auto mb-2 px-5 py-3 position-relative rounded">스마트폰 앱</span>
-                <span class="w-auto px-5 py-3 position-relative rounded">체험 학습</span>
-            </h2>
-            <h4>체험해 볼 앱을 선택해 주세요.</h4>
-            <!-- E : title -->
+        <!-- S : frame -->
+        <div class="frame position-absolute">
+            <div class="top"></div>
+            <div class="bottom"></div>
+        </div>
+        <!-- E : frame -->
 
-            <!-- S : app -->
-            <article class="app">
-                <ul class="app d-flex flex-wrap justify-content-between">
-                    <li class="mb-4">
-                        <a href="/public/view/mnhis/intro.html">
-                            <img src="/public/img/ico_mnhis.svg" loading="lazy" alt="모바일 건강보험증 아이콘">
-                            <p>모바일 건강보험증</p>
+        <!-- S : inner -->
+        <div class="inner position-relative" style="background-color: var(--primary);">
+            <!-- S : header -->
+            <header class="z-2 position-absolute w-100">
+                <div class="header w-100 px-4">
+                    <div class="h-100 d-flex justify-content-end align-items-center">
+                        <a href="/view/main.html" class="first text-center">
+                            <span class="material-symbols-rounded">house</span>
+                            <p class="home">처음으로</p>
                         </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="/public/view/nhis/intro.html">
-                            <img src="/public/img/ico_nhis.svg" loading="lazy" alt="The건강보험 아이콘">
-                            <p>The<span class="block">건강보험</span></p>
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="/public/view/youtube/intro.html">
-                            <img src="/public/img/ico_youtube.svg" loading="lazy" alt="유튜브 아이콘">
-                            <p>유튜브</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/public/view/askup/intro.html">
-                            <img src="/public/img/ico_askup.svg" loading="lazy" alt="AskUp 아이콘">
-                            <p>AskUp</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/public/view/bank/intro.html">
-                            <img src="/public/img/ico_bank.svg" loading="lazy" alt="모바일뱅킹 아이콘">
-                            <p>모바일뱅킹</p>
-                        </a>
-                    </li>
-                    <li></li>
-                </ul>
-            </article>
-            <!-- E : app -->
+                    </div>
+                </div>
+            </header>
+            <!-- E : header -->
 
-            <!-- S : pagination -->
-            <ul class="pagination pt-4">
-                <li class="blue"></li>
-                <li class="gray"></li>
-                <li class="gray"></li>
-            </ul>
-            <!-- E : pagination -->
-        </section>
-        <!-- E : content -->
+            <!-- S : content -->
+            <section id="content" class="page page-main d-flex flex-column justify-content-between text-center">
+                <!-- S : title -->
+                <div class="title-wrap d-flex flex-column justify-content-center align-items-center">
+                    <div class="logo mb-3"><img src="/img/logo_w.svg" alt="디지털배움터 로고"></div>
+                    <h2>스마트한 일상 앱 활용 교육</h2>
+                    <h3>앱을 클릭하여 체험해보세요.</h3>
+                </div>
+                <!-- E : title -->
 
-        <!-- S : footer -->
-        <footer id="footer" class="w-100 py-3 position-absolute bottom-0 rounded-top">
-        </footer>
-        <!-- E : footer -->
+                <!-- S : app -->
+                <article class="box main">
+                    <ul class="app">
+                        <li class="d-flex justify-content-center">
+                            <a href="/view/mnhis/intro.html">
+                                <img src="/img/ico_mnhis.svg" alt="모바일 건강보험증 아이콘">
+                                <p>인증공공서비스<span class="bold">모바일 건강보험증</span></p>
+                            </a>
+                            <a href="/view/mid/intro.html">
+                                <img src="/img/ico_mid.svg" alt="모바일 신분증 아이콘">
+                                <p>간편 본인확인<span class="bold">모바일 신분증</span></p>
+                            </a>
+                        </li>
+                        <li class="d-flex justify-content-between">
+                            <a href="/view/nhis/intro.html">
+                                <img src="/img/ico_nhis.svg" alt="The건강보험 아이콘">
+                                <p>실생활 디지털 활용<span class="bold">The건강보험</span></span></p>
+                            </a>
+                            <img src="/img/logo.svg" alt="디지털배움터 로고" class="logo">
+                            <a href="/view/bank/intro.html">
+                                <img src="/img/ico_bank.svg" alt="모바일뱅킹 아이콘">
+                                <p>금융·피싱예방<span class="bold">모바일뱅킹</span></p>
+                            </a>
+                        </li>
+                        <li class="d-flex justify-content-center">
+                            <a href="/view/askup/intro.html">
+                                <img src="/img/ico_askup.svg" alt="AskUp 아이콘">
+                                <p>인공지능<span class="bold">AskUp</span></p>
+                            </a>
+                            <a href="/view/youtube/intro.html">
+                                <img src="/img/ico_youtube.svg" alt="유튜브 아이콘">
+                                <p>온라인 콘텐츠<span class="bold">유튜브</span></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <!-- E : app -->
+            </section>
+            <!-- E : content -->
+            <!-- S : footer -->
+            <footer id="footer-logo" class="footer w-100 py-3 position-absolute bottom-0">
+            </footer>
+            <!-- E : footer -->
+        </div>
+        <!-- E : inner -->
+
     </div>
     <!-- E : wrap -->
 </body>

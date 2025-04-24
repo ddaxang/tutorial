@@ -1,187 +1,208 @@
+/* S : 공통 */
+    .youtube01 .btn.click {
+        width: 3rem;
+        height: 3rem;
+        top: 0.5%;
+        right: 0.8%;
+    }
+
+    .youtube02 + .keyboard-wrap .btn.click {
+        width: 3rem;
+        height: 3rem;
+        bottom: 55%;
+        left: 19%;
+    }
+
+    .youtube03 + .keyboard-wrap .btn.click {
+        width: 3rem;
+        height: 2.5rem;
+        bottom: 10%;
+        right: 0.5%;
+    }
+
+    .youtube04 .btn.click {
+        width: 100%;
+        height: 8.125rem;
+        top: 33%;
+        left: 0;
+    }
+
+    .popup01 {
+        margin-bottom: 30px;
+    }
+    .popup02 {
+        height: fit-content;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    /* E : 공통 */
+
+
 /* S : 구독 */
-.youtube-subscribe01 .btn.click {
-    width: 3rem;
-    height: 3rem;
-    top: 0.5%;
-    right: 0.5%;
-}
-.youtube-subscribe01 .btn.click .click-point {
-    top: 7%;
-    right: 54%;
-}
-
-.youtube-subscribe02 .btn.click {
-    width: 100%;
-    height: 22.6rem;
-    bottom: 0;
-    left: 0;
-}
-.youtube-subscribe02 .btn.click .click-point {
-    top: 44%;
-    right: 46%;
-}
-
-.youtube-subscribe03 .btn.click {
-    width: 3rem;
-    height: 2.5rem;
-    bottom: 8.6%;
-    right: 0.5%;
-}
-.youtube-subscribe03 .btn.click .click-point {
-    top: -9%;
-    right: 55%;
-}
-
-.youtube-subscribe04 .btn.click {
-    width: 100%;
-    height: 8.25rem;
-    top: 6%;
-    left: 0;
-}
-.youtube-subscribe04 .btn.click .click-point {
-    top: 34%;
-    right: 47%;
-}
-
-.youtube-subscribe05 .btn.click {
-    width: 100%;
-    height: 2.5rem;
-    top: 39.4%;
-    left: 0;
-}
-.youtube-subscribe05 .btn.click .click-point {
-    top: 21%;
-    right: 40%;
-}
-
-.youtube-subscribe06 .btn.click {
-    width: 100%;
-    height: 19.8rem;
-    top: 50%;
-    left: 0;
-}
-.youtube-subscribe06 .btn.click .click-point {
-    top: 21%;
-    right: 45%;
-}
+    .youtube-subscribe05 .btn.click {
+        width: 3rem;
+        height: 2.3rem;
+        top: 42.2%;
+        right : 4%;
+    }
 /* E : 구독 */
 
 
 /* S : 공유하기 */
-.youtube-share01 .btn.click {
-    width: 4.87rem;
-    height: 2.12rem;
-    top: 45.9%;
-    left: 33%;
-}
-.youtube-share01 .btn.click .click-point {
-    top: 18%;
-    right: 56%;
-}
-
-.youtube-share02 .btn.click {
-    width: 5.37rem;
-    height: 5.75rem;
-    top: 68.5%;
-    left: 2.5%;
-}
-.youtube-share02 .btn.click .click-point {
-    top: 6%;
-    right: 8%;
-}
-
-.youtube-share03 .btn.click {
-    width: 2.8rem;
-    height: 2.8rem;
-    top: 40.2%;
-    right: 2.9%;
-}
-.youtube-share03 .btn.click .click-point {
-    top: 2%;
-    right: 49%;
-}
-
-.youtube-share04 .btn.click {
-    width: 5.8rem;
-    height: 2.8rem;
-    top: 1.2%;
-    right: 0.5%;
-}
-.youtube-share04 .btn.click .click-point {
-    top: 23%;
-    right: 81%;
-}
+    .youtube-share05 .btn.click {
+        width: 5rem;
+        height: 2.2rem;
+        top: 50%;
+        left: 37%;
+    }
+    
+    .youtube-share06 + div {
+        margin-bottom: 30px;
+    }
+    .youtube-share06 + div .btn.click {
+        width: 4.8rem;
+        height: 5.5rem;
+        bottom: 52%;
+        left: 2.5%;
+    }
+    .youtube-share06 + div .btn.click .click-point {
+        top: 40%;
+    }
+    
+    .youtube-share07 .btn.click {
+        width: 4rem;
+        height: 3rem;
+        top: 47%;
+        right: 0.5%;
+    }
+    
+    .youtube-share08 .btn.click {
+        width: 4.5rem;
+        height: 3rem;
+        top: 1%;
+        right: 0.5%;
+    }
 /* E : 공유하기 */
 
 
 /* S : 나중에 볼 동영상 */
-.youtube-after01 .btn.click {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    height: 4.8rem;
-    top: 83%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.youtube-after01 .btn.click .click-point {
-    top: 30%;
-    right: 14%;
-}
+    .youtube-after04 .btn.click,
+    .youtube-list04 .btn.click {
+        width: 2.8rem;
+        height: 2.8rem;
+        top: 56.8%;
+        right: 0.7%;
+    }
 
-.youtube-after02 .btn.click {
-    width: 2.5rem;
-    height: 2.5rem;
-    top: 37.4%;
-    right: 1%;
-}
-.youtube-after02 .btn.click .click-point {
-    top: -5%;
-    right: 69%;
-}
-
-.youtube-after03 .btn.click {
-    width: 100%;
-    height: 3.5rem;
-    top: 57.2%;
-    right: 0;
-}
-.youtube-after03 .btn.click .click-point {
-    top: 27%;
-    right: 38%;
-}
-
-.youtube-after04 .btn.click {
-    width: 5.6rem;
-    height: 3.5rem;
-    top: 86.8%;
-    right: 0;
-}
-.youtube-after04 .btn.click .click-point {
-    top: 10%;
-    right: 66%;
-}
-
-.youtube-after05 .btn.click {
-    width: 10.6rem;
-    height: 10.6rem;
-    top: 58.8%;
-    left: 1%;
-}
-.youtube-after05 .btn.click .click-point {
-    top: 21%;
-    right: 23%;
-}
-
-.youtube-after06 .btn.click {
-    width: 100%;
-    height: 7rem;
-    top: 63.4%;
-    left: 0;
-}
-.youtube-after06 .btn.click .click-point {
-    top: 40%;
-    right: 10%;
-}
+    .youtube-after05 + div .btn.click,
+    .youtube-list05 + div .btn.click {
+        width: 100%;
+        height: 3.5rem;
+        top: 19%;
+        left: 0;
+    }
+    
+    .youtube-after05 + div .btn.click .click-point {
+        left: 40%;
+    }
+    
+    .youtube-after06 + div .btn.click,
+    .youtube-list09 + div .btn.click {
+        width: 3.5rem;
+        height: 3.5rem;
+        bottom: 7%;
+        right: 3%;
+    }
+    
+    .youtube-after07 .btn.click,
+    .youtube-list10 .btn.click {
+        width: 9.5rem;
+        height: 5.5rem;
+        bottom: 18%;
+        left: 3.5%;
+    }
+    
+    .youtube-after08 .btn.click {
+        width: 100%;
+        height: 5.7rem;
+        bottom: 17%;
+        left: 0;
+    }
+    .youtube-after08 .btn.click .click-point {
+        left: 29%;
+    }
 /* E : 나중에 볼 동영상 */
+
+
+/* S : 재생목록 추가/삭제 */
+    .youtube-list05 + div .btn.click {
+        top: 32.5%;
+    }
+    .youtube-list05 + div .btn.click .click-point {
+        left: 30%;
+    }
+    
+    .youtube-list06 + div .btn.click {
+        width: 8rem;
+        height: 3rem;
+        top: 15%;
+        right: 2%;
+    }
+    
+    .youtube-list07 + div .btn.click {
+        width: 3rem;
+        height: 3rem;
+        top: 24%;
+        left: 10%;
+    }
+    
+    .youtube-list08 + div .btn.click {
+        width: 3.5rem;
+        height: 3rem;
+        bottom: 2%;
+        right: 8.5%;
+    }
+    
+    .youtube-list11 .btn.click {
+        width: 2.8rem;
+        height: 2.8rem;
+        bottom: 25%;
+        right: 0.7%;
+    }
+    
+    .youtube-list12 + div .btn.click {
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 3.5rem;
+        bottom: 30.5%;
+        left: 0;
+    }
+    .youtube-list12 + div .btn.click .click-point {
+        left: 30%;
+    }
+
+    .youtube-list13 .screen01 {
+        left: 0;
+        top: 0;
+        z-index: 1;
+        animation: screen01 0.6s forwards 1s 1;
+    }
+    @keyframes screen01 {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+        }
+    }
+
+    .youtube-list13 .screen02 {
+        left: 0;
+        top: 0;
+    }
+
+    .youtube-list13 .btn.final {
+        animation: final 0.6s forwards 2.2s 1;
+    }
+
+/* E : 재생목록 추가/삭제 */

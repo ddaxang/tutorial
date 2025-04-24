@@ -1,22 +1,38 @@
 /* S : 폰트 - Cafe24써라운드 */
     @font-face {
-        font-family: 'Cafe24Ssurround';
-        src: url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Ssurround/Cafe24Ssurround.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Ssurround/Cafe24Ssurround.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Ssurround/Cafe24Ssurround.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Ssurround/Cafe24Ssurround.ttf') format("truetype");
-        font-weight: normal;
+        font-family: 'GmarketSans';
+        font-weight: 300;
         font-style: normal;
-    }
+        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
+        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+        font-display: swap;
+    } 
+    
+    @font-face {
+        font-family: 'GmarketSans';
+        font-weight: 500;
+        font-style: normal;
+        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
+        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
+        font-display: swap;
+    } 
 
     @font-face {
-        font-family: 'Cafe24SsurroundAir';
-        src: url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24SsurroundAir/Cafe24SsurroundAir.eot?#iefix') format('embedded-opentype'),
-             url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24SsurroundAir/Cafe24SsurroundAir.woff2') format('woff2'),
-             url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24SsurroundAir/Cafe24SsurroundAir.woff') format('woff'),
-             url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24SsurroundAir/Cafe24SsurroundAir.ttf') format("truetype");
-        font-weight: normal;
+        font-family: 'GmarketSans';
+        font-weight: 700;
         font-style: normal;
+        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
+        src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
+        font-display: swap;
     }
 /* E : 폰트 - Cafe24써라운드 */
 
@@ -25,8 +41,8 @@
     :root {
         /* S : base color */
             /* main */
-            --primary: #0EA5E9;
-            --secondary: #0284C7;
+            --primary: #334B89;
+            --secondary: #1E3A8A;
             --p300: #7DD3FC;
             --p200: #BAE6FD;
             --p100: #E0F2FE;
@@ -78,6 +94,10 @@ html, body {
     align-items: center;
     justify-content: center;
 }
+
+body {
+    background: url("/img/bg.jpg") no-repeat top left / cover;
+}
 /* E : body */
 
 
@@ -85,12 +105,85 @@ html, body {
     #wrap {
         width: 100%;
         max-width: 450px;
-        height: 100%;
-        overflow-y: auto;
-        border-left: 1px solid var(--border);
-        border-right: 1px solid var(--border);
+        height: 840px;
+        padding: 24px 25px;
+        border-radius: 80px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
     }
 /* E : wrap */
+
+
+/* S : frame */
+    .frame {
+        top: 0;
+        left: 0;
+        max-width: 450px;
+        width: 100%;
+        height: 840px;
+    }
+
+    .frame .top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 80px);
+        background: url(/img/frame_top.png) no-repeat center top;
+        background-size: contain;
+        overflow: hidden;
+    }
+
+    .frame .bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 80px);
+        background: url(/img/frame_bottom.png) no-repeat center bottom;
+        background-size: contain;
+        overflow: hidden;
+    }
+
+    @media screen and (max-width: 480px) {
+        #wrap {
+            height: 100%;
+            padding: 20px 23px;
+        }
+        .frame {
+            /* height: 100vh;
+            height: -webkit-fill-available;
+            height: fill-available; */
+            height: 100%;
+        }
+        .frame .top,
+        .frame .bottom {
+            background-size: 100% auto;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        #wrap {
+            padding: 18px 20px;
+        }
+    }
+/* E : frame */
+
+
+/* S : inner */
+    .inner {
+        width: 100%;
+        height: 100%;
+        border-radius: 52px;
+        overflow: hidden;
+    }
+
+    @media screen and (max-width: 480px) {
+        .inner {
+            border-radius: 44px;
+        }
+    }
+/* E : inner */
 
 
 /* S : header */
@@ -100,27 +193,48 @@ html, body {
     }
 
     .header h1 {
-        color: var(--white);
-        font-family: 'Cafe24Ssurround';
-        font-size: 1.31em;
-    }
-    .header h1 a:hover {
-        color: var(--white);
+        width: 100%;
+        max-width: 140px;
     }
 
-    .header .menu:hover {
-        color: var(--black);
+    .header .logo {
+        max-width: 140px;
     }
+    .header .logo > img {
+        width: 100%;
+        object-fit: contain;
+    }
+    
 
-    .header a > span {
+    .header a {
         color: var(--white);
-        font-size: 2em;
+        font-family: 'GmarketSans';
+    }
+    .header a:first-child > span.material-symbols-rounded {
+        font-size: 2rem;
         vertical-align: middle;
     }
-    .header .menu span {
-        color: var(--white);
-        font-size: 3em;
+    .header a > span.back {
+        margin-top: 4px;
+        font-size: 1.313rem;
+        font-weight: 700;
+    }
+    .header a:last-child > span.material-symbols-rounded {
+        font-size: 1.5rem;
         vertical-align: middle;
+    }
+    .header a > p {
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+    
+    @media screen and (max-width: 480px) {
+        .header h1 {
+            font-size: 1.1rem;
+        }
+        .header .menu span {
+            font-size: 2.5rem;
+        }
     }
 /* E : header */
     
@@ -141,8 +255,9 @@ html, body {
     nav .info {
         color: var(--secondary);
         background-color: var(--p100);
-        font-family: 'Cafe24Ssurround';
+        font-family: 'GmarketSans';
         font-size: 1.13em;
+        font-weight: 500;
     }
 
 /* E : nav */
@@ -159,10 +274,18 @@ html, body {
 
     .page {
         margin-top: 60px;
-        padding-bottom: 56px !important;
         height: calc(100% - 60px);
         overflow-x: hidden;
         overflow-y: auto;
+    }
+
+    .page.page-main {
+        margin-top: 0;
+        height: 100%;
+    }
+
+    .page.hidden {
+        overflow-y: hidden;
     }
 
     .page > article > img {
@@ -206,6 +329,9 @@ html, body {
         margin-bottom: 0;
     }
     /* S : btn-style */
+        .btn {
+            z-index: 1;
+        }
         .btn:active,
         .btn:focus,
         .btn:focus-visible,
@@ -216,9 +342,10 @@ html, body {
         .btn.main {
             width: 100%;
             max-width: 18rem;
-            padding: 23px 0 20px;
+            padding: 20px 0 23px;
             font-size: 1.75em;
-            font-family: 'Cafe24Ssurround';
+            font-family: 'GmarketSans';
+            font-weight: 700;
             line-height: 100%;
             border: 5px solid var(--white);
             border-radius: 50px;
@@ -226,7 +353,7 @@ html, body {
         }
         
         .btn.main:hover {
-            box-shadow: 0 0 15px rgba(14, 165, 233, 0.3);
+            box-shadow: 0 0 15px rgba(23, 37, 84, 0.3);
         }
 
         .btn.primary {
@@ -270,10 +397,13 @@ html, body {
             height: 1.5rem;
             left: 50%;
             top: 50%;
-            transform: translate(-50%,-50%);
             background-color: var(--red);
             border-radius: 50%;
             opacity: 0.8;
+        }
+
+        .click-point {
+            transform: translate(-50%, -50%);
         }
 
         .click-point.dark,
@@ -287,17 +417,14 @@ html, body {
             content: "";
             left: 0;
             top: 0;
-            animation: point 1.8s infinite;
         }
 
         .click-point::before {
-            animation: point1 1.8s infinite;
-            animation-delay: 0.2s;
+            animation: point1 1.8s infinite 0.2s;
         }
         
         .click-point::after {
-            animation: point2 1.8s infinite;
-            animation-delay: 0.6s;
+            animation: point2 1.8s infinite 0.6s;
         }
 
         .click-point span {
@@ -306,7 +433,7 @@ html, body {
 
         @keyframes point1 {
             0% {
-                opacity: 0.6;
+                opacity: 0.8;
                 transform: scale(1);
             }
             100% {
@@ -335,11 +462,6 @@ html, body {
             animation: final 0.6s forwards 1.5s 1;
         }
 
-        .btn.final .click-point {
-            top: 34%;
-            right: 20%;
-        }
-
         @keyframes final {
             from {
                 opacity: 0;
@@ -348,18 +470,76 @@ html, body {
                 opacity: 1;
             }
         }
-
     /* E : 체험완료 btn */
 /* E : btn-wrap */
 
 
 /* S : footer */
-    #footer {
+    #footer-logo {
+        background-color: rgba(17, 24, 39, 0.2);
+    }
+    #footer-info {
         background-color: rgba(17, 24, 39, 0.5);
     }
 
-    #footer p {
+    .footer p {
         color: var(--white);
         font-weight: 600;
     }
 /* E : footer */
+
+/* S : scroll */
+    .page > article > img.scroll {
+        width: 80px;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%);
+        animation: scroll 1.3s forwards infinite;
+    }
+
+    @keyframes scroll {
+        from {
+            top: 55%;
+        }
+        to {
+            top: 45%;
+        }
+    }
+
+    .page > article > .scroll-down {
+        top: 14%;
+        left: 70.5%;
+        width: fit-content;
+        height: 130px;
+        animation: arrowEffect 2s infinite;
+    }
+
+    .page > article > .scroll-down p {
+        margin-bottom: 6px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 1.25;
+        font-size: 1.2rem;
+        color: #334B89;
+    }
+
+    .page > article > .scroll-down img {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    @keyframes arrowEffect {
+        0% {
+            transform: translateY(0);
+            opacity: 0.5;
+        }
+        50% {
+            transform: translateY(65px);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(130px);
+            opacity: 0;
+        }
+    }
+/* E : scroll */

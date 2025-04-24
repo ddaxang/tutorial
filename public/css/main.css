@@ -1,84 +1,167 @@
+/* S : main-menu */
+    .main-menu {
+        font-family: 'GmarketSans';
+    }
+    .main-menu li {
+        width: calc(50% - 5px);
+        border-radius: 10px;
+    }
+    .main-menu li:hover {
+        box-shadow: 0 0 15px rgba(23, 37, 84, 0.3);
+    }
+    .main-menu li a {
+        padding: 30px 20px;
+    }
+    .main-menu li a p {
+        margin: 10px 0 25px;
+    }
+    .main-menu li a img {
+        width: 100%;
+    }
+
+    .main-menu li:first-child {
+        border: 2px solid #0EA5E9;
+    }
+    .main-menu li:first-child h5 {
+        color: #0EA5E9;
+    }
+    .main-menu li:first-child a:hover {
+        color: rgb(14, 165, 233);
+        background-color: rgba(14, 165, 233, 0.08);
+    }
+
+    .main-menu li:last-child {
+        border: 2px solid var(--primary);
+    }
+    .main-menu li:last-child h5 {
+        color: var(--primary);
+    }
+    .main-menu li:last-child a:hover {
+        background-color: rgba(51, 75, 137, 0.08);
+    }
+
+    .main-menu + .copyright {
+        margin: 30px 0 50px;
+        color: var(--text-sub);
+        font-size: 0.813rem;
+    }
+    /* E : main-menu */
+
 /* S : main */
     a {
         display: block;
-        width: 100%;
-        height: 100%;
     }
     .page {
-        background: linear-gradient(var(--white), var(--p200));
+        background-color: var(--primary);
     }
 
     /* S : title */
+        .title-wrap {
+            flex: 1 0 auto;
+            padding: 60px 0 30px;
+            text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+        }
+        .title-wrap .logo {
+            width: 140px;
+        }
+
         .page h2,
         .page h3,
-        .page h4 {
-            font-family: 'Cafe24Ssurround';
+        .page h4,
+        .page h5 {
+            font-family: 'GmarketSans';
             line-height: 1.4;
         }
-         
+        
         .page h2 {
-            padding: 35px 0;
-            left: 40%;
-            transform: translateX(-50%);
-            font-size: 2.25em;
-        }
-
-        .page h2 span {
-            display: inline-block;
-        }
-
-        .page h2 span:first-child {
+            font-size: 1.5rem;
+            font-weight: 700;
             color: var(--white);
-            background-color: var(--primary);
-            transform: rotate(-3deg);
-            box-shadow: 5px 5px 0 var(--p300);
-            word-break: keep-all;
         }
-
-        .page h2 span:last-child {
-            left: 25%;
-            color: var(--secondary);
-            background-color: var(--p200);
-            transform: rotate(5deg);
-            text-shadow: -3px 0px var(--white), 0px 3px var(--white), 3px 0px var(--white), 0px -3px var(--white);
+        .page h3 {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--text-des);
         }
-
         .page h4 {
-            margin: 0 0 35px;
-            color: var(--text-sub);
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+        .page h5 {
+            font-size: 1.31rem;
+            font-weight: 700;
         }
     /* E : title */
 
 
     /* S : app */
-        .app > li {
-            width: calc((100% / 3) - 15px);
-        }
-
-        .app > li > a > img {
+        .box {
             width: 100%;
-            margin-bottom: 15px;
-            border-radius: 24px;
+            padding: 40px 20px 40px;
+            border-radius: 20px 20px 0 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            background: var(--white);
+        }
+        .box.size-s {
+            min-height: 50vh;
+        }
+        .box.main {
+            padding: 30px 20px 80px;
+            background: url(/img/bg_dot.svg) no-repeat center 25%, var(--white);
+        }
+        .box.done {
+            padding: 30px 20px 60px;
+        }
+        .box .app > li {
+            width: 100%;
+        }
+        .box .app > li:nth-child(1) {
+            column-gap: 25px;
+        }
+        .box .app > li:nth-child(2) {
+            margin: 15px 0 15px;
+        }
+        .box .app > li:nth-child(3) {
+            column-gap: 25px;
         }
 
-        .app > li > a > p {
-            font-size: 1.31em;
+        .box .app > li > a {
+            width: 110px;
+        }
+        
+        .box .app > li > a > img {
+            width: 5rem;
+            margin-bottom: 12px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        }
+        
+        .box .app > li > a > p {
+            font-size: 0.813rem;
+        }
+        .box .app > li > a > p .bold {
+            display: block;
+            font-size: 0.938rem;
+            font-weight: 700;
+        }
+        .box .app > li >.logo {
+            width: 105px;
+            padding-bottom: 40px;
         }
     /* E : app */
 /* E : main */
+        
 
-
-/* S : intro */
-    .page h3 {
-        font-size: 2em;
+/* S : intro */    
+    .page-sub article {
+        height: 100%;
     }
-    .page .img-box img {
-        width: 130px;
-        height: 130px;
+    .page .img-box .ico-img {
+        width: 8rem;
+        height: 8rem;
+        margin: 15px;
         border-radius: 30px;
-    }
-
-    .page .ico-img {
         box-shadow: 0 0 18px rgba(0, 0, 0, 0.15);
     }
 
@@ -89,15 +172,36 @@
     
     .intro .text-wrap li:last-child {
         font-size: 1.31em;
-        font-family: 'Cafe24Ssurround';
+        font-family: 'GmarketSans';
+        font-weight: 700;
+    }
+    .page .box > p {
+        color: var(--text-sub);
+        font-family: 'GmarketSans';
+        line-height: 1.5;
+    }
+    .page .box > p:nth-child(2) {
+        padding: 20px;
+        color: var(--secondary);
+        background-color: var(--p100);
     }
 /* E : intro */
 
+
 /* S : done */
+    .done .img-wrap img {
+        width: 9rem;
+    }
+    @media screen and (max-height:699px) {
+        .done .img-wrap {
+            display: none;
+        }
+    }
     .done .text-wrap li {
         color: var(--text-sub);
-        font-size: 1.31em;
-        font-family: 'Cafe24Ssurround';
+        font-size: 1.31rem;
+        font-family: 'GmarketSans';
+        font-weight: 500;
     }
     .done .btn-wrap a {
         display: flex;
