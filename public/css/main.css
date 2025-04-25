@@ -108,7 +108,7 @@
         }
         .box.main {
             padding: 30px 20px 80px;
-            background: url(/tutorial/public/img/bg_dot.svg) no-repeat center 25%, var(--white);
+            background: url("/tutorial/public/img/bg_dot.svg") no-repeat center 25%, var(--white);
         }
         .box.done {
             padding: 30px 20px 60px;
@@ -116,15 +116,9 @@
         .box .app > li {
             width: 100%;
         }
-        /* .box .app > li:nth-child(1) {
-            column-gap: 25px;
-        } */
         .box .app > li:nth-child(2) {
             margin: 15px 0 15px;
         }
-        /* .box .app > li:nth-child(3) {
-            column-gap: 25px;
-        } */
 
         .box .app > li > a {
             width: 110px;
