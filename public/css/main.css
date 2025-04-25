@@ -58,7 +58,7 @@
     /* S : title */
         .title-wrap {
             flex: 1 0 auto;
-            padding: 25px 0;
+            padding: 25px 0 0;
             text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
         }
         .title-wrap .logo {
@@ -158,8 +158,8 @@
         height: 100%;
     }
     .page .img-box .ico-img {
-        width: 7rem;
-        height: 7rem;
+        width: 6.5rem;
+        height: 6.5rem;
         margin: 15px;
         border-radius: 15px;
         box-shadow: 0 0 18px rgba(0, 0, 0, 0.15);
