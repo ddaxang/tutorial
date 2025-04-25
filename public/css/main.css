@@ -116,15 +116,15 @@
         .box .app > li {
             width: 100%;
         }
-        .box .app > li:nth-child(1) {
+        /* .box .app > li:nth-child(1) {
             column-gap: 25px;
-        }
+        } */
         .box .app > li:nth-child(2) {
             margin: 15px 0 15px;
         }
-        .box .app > li:nth-child(3) {
+        /* .box .app > li:nth-child(3) {
             column-gap: 25px;
-        }
+        } */
 
         .box .app > li > a {
             width: 110px;
