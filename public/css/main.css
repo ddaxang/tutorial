@@ -181,7 +181,7 @@
         line-height: 1.5;
     }
     .page .box > p:nth-child(2) {
-        padding: 20px;
+        padding: 10px 20px;
         color: var(--secondary);
         background-color: var(--p100);
     }
